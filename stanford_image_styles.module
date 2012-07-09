@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Stanford Image Styles feature.
+ */
+
+include_once 'stanford_image_styles.features.inc';
