@@ -1,0 +1,10 @@
+Stanford Image Styles x.x-x.x xxxx-xx-xx
+--------------------------------------
+
+Stanford Image 7.x-1.0-alpha5 2013-03-06
+----------------------------------------
+-Added 4 new image styles:
+  - large-scaled
+  - med-landscape-scaled
+  - med-profile-scaled
+  - page-width
