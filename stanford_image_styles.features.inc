@@ -24,10 +24,10 @@ function stanford_image_styles_image_default_styles() {
         'module' => 'image',
         'name' => 'image_scale_and_crop',
         'data' => array(
-          'width' => '1170',
-          'height' => '370',
+          'width' => 1170,
+          'height' => 370,
         ),
-        'weight' => '1',
+        'weight' => 1,
       ),
     ),
   );
@@ -46,10 +46,10 @@ function stanford_image_styles_image_default_styles() {
         'module' => 'image',
         'name' => 'image_scale_and_crop',
         'data' => array(
-          'width' => '270',
-          'height' => '100',
+          'width' => 270,
+          'height' => 100,
         ),
-        'weight' => '1',
+        'weight' => 1,
       ),
     ),
   );
@@ -68,10 +68,10 @@ function stanford_image_styles_image_default_styles() {
         'module' => 'image',
         'name' => 'image_scale_and_crop',
         'data' => array(
-          'width' => '230',
-          'height' => '95',
+          'width' => 230,
+          'height' => 95,
         ),
-        'weight' => '1',
+        'weight' => 1,
       ),
     ),
   );
@@ -90,10 +90,10 @@ function stanford_image_styles_image_default_styles() {
         'module' => 'image',
         'name' => 'image_scale_and_crop',
         'data' => array(
-          'width' => '230',
-          'height' => '240',
+          'width' => 230,
+          'height' => 240,
         ),
-        'weight' => '1',
+        'weight' => 1,
       ),
     ),
   );
@@ -112,10 +112,10 @@ function stanford_image_styles_image_default_styles() {
         'module' => 'image',
         'name' => 'image_scale_and_crop',
         'data' => array(
-          'width' => '370',
-          'height' => '140',
+          'width' => 370,
+          'height' => 140,
         ),
-        'weight' => '1',
+        'weight' => 1,
       ),
     ),
   );
@@ -134,10 +134,10 @@ function stanford_image_styles_image_default_styles() {
         'module' => 'image',
         'name' => 'image_scale_and_crop',
         'data' => array(
-          'width' => '570',
-          'height' => '330',
+          'width' => 570,
+          'height' => 330,
         ),
-        'weight' => '1',
+        'weight' => 1,
       ),
     ),
   );
@@ -156,10 +156,10 @@ function stanford_image_styles_image_default_styles() {
         'module' => 'image',
         'name' => 'image_scale_and_crop',
         'data' => array(
-          'width' => '570',
-          'height' => '230',
+          'width' => 570,
+          'height' => 230,
         ),
-        'weight' => '1',
+        'weight' => 1,
       ),
     ),
   );
@@ -178,10 +178,10 @@ function stanford_image_styles_image_default_styles() {
         'module' => 'image',
         'name' => 'image_scale_and_crop',
         'data' => array(
-          'width' => '570',
-          'height' => '100',
+          'width' => 570,
+          'height' => 100,
         ),
-        'weight' => '1',
+        'weight' => 1,
       ),
     ),
   );
@@ -200,10 +200,10 @@ function stanford_image_styles_image_default_styles() {
         'module' => 'image',
         'name' => 'image_scale_and_crop',
         'data' => array(
-          'width' => '770',
-          'height' => '330',
+          'width' => 770,
+          'height' => 330,
         ),
-        'weight' => '1',
+        'weight' => 1,
       ),
     ),
   );
@@ -222,10 +222,10 @@ function stanford_image_styles_image_default_styles() {
         'module' => 'image',
         'name' => 'image_scale_and_crop',
         'data' => array(
-          'width' => '870',
-          'height' => '330',
+          'width' => 870,
+          'height' => 330,
         ),
-        'weight' => '1',
+        'weight' => 1,
       ),
     ),
   );
@@ -244,10 +244,10 @@ function stanford_image_styles_image_default_styles() {
         'module' => 'image',
         'name' => 'image_scale_and_crop',
         'data' => array(
-          'width' => '870',
-          'height' => '270',
+          'width' => 870,
+          'height' => 270,
         ),
-        'weight' => '1',
+        'weight' => 1,
       ),
     ),
   );
@@ -266,10 +266,10 @@ function stanford_image_styles_image_default_styles() {
         'module' => 'image',
         'name' => 'image_scale_and_crop',
         'data' => array(
-          'width' => '30',
-          'height' => '30',
+          'width' => 30,
+          'height' => 30,
         ),
-        'weight' => '1',
+        'weight' => 1,
       ),
     ),
   );
@@ -288,10 +288,10 @@ function stanford_image_styles_image_default_styles() {
         'module' => 'image',
         'name' => 'image_scale_and_crop',
         'data' => array(
-          'width' => '370',
-          'height' => '275',
+          'width' => 370,
+          'height' => 275,
         ),
-        'weight' => '1',
+        'weight' => 1,
       ),
     ),
   );
@@ -310,10 +310,10 @@ function stanford_image_styles_image_default_styles() {
         'module' => 'image',
         'name' => 'image_scale_and_crop',
         'data' => array(
-          'width' => '270',
-          'height' => '315',
+          'width' => 270,
+          'height' => 315,
         ),
-        'weight' => '1',
+        'weight' => 1,
       ),
     ),
   );
@@ -332,10 +332,10 @@ function stanford_image_styles_image_default_styles() {
         'module' => 'image',
         'name' => 'image_scale_and_crop',
         'data' => array(
-          'width' => '270',
-          'height' => '270',
+          'width' => 270,
+          'height' => 270,
         ),
-        'weight' => '1',
+        'weight' => 1,
       ),
     ),
   );
@@ -354,10 +354,10 @@ function stanford_image_styles_image_default_styles() {
         'module' => 'image',
         'name' => 'image_scale_and_crop',
         'data' => array(
-          'width' => '50',
-          'height' => '50',
+          'width' => 50,
+          'height' => 50,
         ),
-        'weight' => '1',
+        'weight' => 1,
       ),
     ),
   );
@@ -376,10 +376,10 @@ function stanford_image_styles_image_default_styles() {
         'module' => 'image',
         'name' => 'image_scale_and_crop',
         'data' => array(
-          'width' => '270',
-          'height' => '200',
+          'width' => 270,
+          'height' => 200,
         ),
-        'weight' => '1',
+        'weight' => 1,
       ),
     ),
   );
@@ -398,10 +398,10 @@ function stanford_image_styles_image_default_styles() {
         'module' => 'image',
         'name' => 'image_scale_and_crop',
         'data' => array(
-          'width' => '170',
-          'height' => '200',
+          'width' => 170,
+          'height' => 200,
         ),
-        'weight' => '1',
+        'weight' => 1,
       ),
     ),
   );
@@ -420,10 +420,10 @@ function stanford_image_styles_image_default_styles() {
         'module' => 'image',
         'name' => 'image_scale_and_crop',
         'data' => array(
-          'width' => '140',
-          'height' => '140',
+          'width' => 140,
+          'height' => 140,
         ),
-        'weight' => '1',
+        'weight' => 1,
       ),
     ),
   );
@@ -442,10 +442,10 @@ function stanford_image_styles_image_default_styles() {
         'module' => 'image',
         'name' => 'image_scale_and_crop',
         'data' => array(
-          'width' => '220',
-          'height' => '260',
+          'width' => 220,
+          'height' => 260,
         ),
-        'weight' => '1',
+        'weight' => 1,
       ),
     ),
   );
@@ -464,11 +464,11 @@ function stanford_image_styles_image_default_styles() {
         'module' => 'image',
         'name' => 'image_scale',
         'data' => array(
-          'width' => '1200',
+          'width' => 1200,
           'height' => '',
           'upscale' => 0,
         ),
-        'weight' => '1',
+        'weight' => 1,
       ),
     ),
   );
@@ -487,10 +487,10 @@ function stanford_image_styles_image_default_styles() {
         'module' => 'image',
         'name' => 'image_scale_and_crop',
         'data' => array(
-          'width' => '170',
-          'height' => '125',
+          'width' => 170,
+          'height' => 125,
         ),
-        'weight' => '1',
+        'weight' => 1,
       ),
     ),
   );
@@ -509,10 +509,10 @@ function stanford_image_styles_image_default_styles() {
         'module' => 'image',
         'name' => 'image_scale_and_crop',
         'data' => array(
-          'width' => '100',
-          'height' => '130',
+          'width' => 100,
+          'height' => 130,
         ),
-        'weight' => '1',
+        'weight' => 1,
       ),
     ),
   );
@@ -531,10 +531,10 @@ function stanford_image_styles_image_default_styles() {
         'module' => 'image',
         'name' => 'image_scale_and_crop',
         'data' => array(
-          'width' => '100',
-          'height' => '100',
+          'width' => 100,
+          'height' => 100,
         ),
-        'weight' => '1',
+        'weight' => 1,
       ),
     ),
   );
@@ -553,10 +553,10 @@ function stanford_image_styles_image_default_styles() {
         'module' => 'image',
         'name' => 'image_scale_and_crop',
         'data' => array(
-          'width' => '100',
-          'height' => '75',
+          'width' => 100,
+          'height' => 75,
         ),
-        'weight' => '1',
+        'weight' => 1,
       ),
     ),
   );
@@ -575,10 +575,10 @@ function stanford_image_styles_image_default_styles() {
         'module' => 'image',
         'name' => 'image_scale_and_crop',
         'data' => array(
-          'width' => '70',
-          'height' => '85',
+          'width' => 70,
+          'height' => 85,
         ),
-        'weight' => '1',
+        'weight' => 1,
       ),
     ),
   );
@@ -597,10 +597,10 @@ function stanford_image_styles_image_default_styles() {
         'module' => 'image',
         'name' => 'image_scale_and_crop',
         'data' => array(
-          'width' => '70',
-          'height' => '70',
+          'width' => 70,
+          'height' => 70,
         ),
-        'weight' => '1',
+        'weight' => 1,
       ),
     ),
   );
@@ -619,10 +619,10 @@ function stanford_image_styles_image_default_styles() {
         'module' => 'image',
         'name' => 'image_scale_and_crop',
         'data' => array(
-          'width' => '470',
-          'height' => '290',
+          'width' => 470,
+          'height' => 290,
         ),
-        'weight' => '1',
+        'weight' => 1,
       ),
     ),
   );
@@ -641,10 +641,10 @@ function stanford_image_styles_image_default_styles() {
         'module' => 'image',
         'name' => 'image_scale_and_crop',
         'data' => array(
-          'width' => '150',
-          'height' => '90',
+          'width' => 150,
+          'height' => 90,
         ),
-        'weight' => '1',
+        'weight' => 1,
       ),
     ),
   );
