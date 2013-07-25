@@ -1,6 +1,11 @@
 Stanford Image Styles x.x-x.x xxxx-xx-xx
 --------------------------------------
 
+Stanford Image 7.x-1.0-alpha9 2013-07-25
+----------------------------------------
+-Reverted commit 1220a4807678646edc652e3660559644ad34e595
+-7.x-1.0-alpha8 should not be used
+
 Stanford Image 7.x-1.0-alpha7 2013-04-25
 ----------------------------------------
 Added 5 new image styles:
