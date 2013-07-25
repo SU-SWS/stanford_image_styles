@@ -230,6 +230,28 @@ function stanford_image_styles_image_default_styles() {
     ),
   );
 
+  // Exported image style: 9-col-banner-short.
+  $styles['9-col-banner-short'] = array(
+    'name' => '9-col-banner-short',
+    'effects' => array(
+      13 => array(
+        'label' => 'Scale and crop',
+        'help' => 'Scale and crop will maintain the aspect-ratio of the original image, then crop the larger dimension. This is most useful for creating perfectly square thumbnails without stretching the image.',
+        'effect callback' => 'image_scale_and_crop_effect',
+        'dimensions callback' => 'image_resize_dimensions',
+        'form callback' => 'image_resize_form',
+        'summary theme' => 'image_resize_summary',
+        'module' => 'image',
+        'name' => 'image_scale_and_crop',
+        'data' => array(
+          'width' => '870',
+          'height' => '270',
+        ),
+        'weight' => '1',
+      ),
+    ),
+  );
+
   // Exported image style: icon.
   $styles['icon'] = array(
     'name' => 'icon',
@@ -312,6 +334,28 @@ function stanford_image_styles_image_default_styles() {
         'data' => array(
           'width' => '270',
           'height' => '270',
+        ),
+        'weight' => '1',
+      ),
+    ),
+  );
+
+  // Exported image style: med-icon.
+  $styles['med-icon'] = array(
+    'name' => 'med-icon',
+    'effects' => array(
+      5 => array(
+        'label' => 'Scale and crop',
+        'help' => 'Scale and crop will maintain the aspect-ratio of the original image, then crop the larger dimension. This is most useful for creating perfectly square thumbnails without stretching the image.',
+        'effect callback' => 'image_scale_and_crop_effect',
+        'dimensions callback' => 'image_resize_dimensions',
+        'form callback' => 'image_resize_form',
+        'summary theme' => 'image_resize_summary',
+        'module' => 'image',
+        'name' => 'image_scale_and_crop',
+        'data' => array(
+          'width' => '50',
+          'height' => '50',
         ),
         'weight' => '1',
       ),
@@ -563,6 +607,28 @@ function stanford_image_styles_image_default_styles() {
     ),
   );
 
+  // Exported image style: medlg-profile.
+  $styles['medlg-profile'] = array(
+    'name' => 'medlg-profile',
+    'effects' => array(
+      11 => array(
+        'label' => 'Scale and crop',
+        'help' => 'Scale and crop will maintain the aspect-ratio of the original image, then crop the larger dimension. This is most useful for creating perfectly square thumbnails without stretching the image.',
+        'effect callback' => 'image_scale_and_crop_effect',
+        'dimensions callback' => 'image_resize_dimensions',
+        'form callback' => 'image_resize_form',
+        'summary theme' => 'image_resize_summary',
+        'module' => 'image',
+        'name' => 'image_scale_and_crop',
+        'data' => array(
+          'width' => '220',
+          'height' => '260',
+        ),
+        'weight' => '1',
+      ),
+    ),
+  );
+
   // Exported image style: page-width.
   $styles['page-width'] = array(
     'name' => 'page-width',
@@ -580,6 +646,50 @@ function stanford_image_styles_image_default_styles() {
           'width' => '1200',
           'height' => '',
           'upscale' => 0,
+        ),
+        'weight' => '1',
+      ),
+    ),
+  );
+
+  // Exported image style: xlarge-landscape.
+  $styles['xlarge-landscape'] = array(
+    'name' => 'xlarge-landscape',
+    'effects' => array(
+      7 => array(
+        'label' => 'Scale and crop',
+        'help' => 'Scale and crop will maintain the aspect-ratio of the original image, then crop the larger dimension. This is most useful for creating perfectly square thumbnails without stretching the image.',
+        'effect callback' => 'image_scale_and_crop_effect',
+        'dimensions callback' => 'image_resize_dimensions',
+        'form callback' => 'image_resize_form',
+        'summary theme' => 'image_resize_summary',
+        'module' => 'image',
+        'name' => 'image_scale_and_crop',
+        'data' => array(
+          'width' => '470',
+          'height' => '290',
+        ),
+        'weight' => '1',
+      ),
+    ),
+  );
+
+  // Exported image style: xs-landscape.
+  $styles['xs-landscape'] = array(
+    'name' => 'xs-landscape',
+    'effects' => array(
+      9 => array(
+        'label' => 'Scale and crop',
+        'help' => 'Scale and crop will maintain the aspect-ratio of the original image, then crop the larger dimension. This is most useful for creating perfectly square thumbnails without stretching the image.',
+        'effect callback' => 'image_scale_and_crop_effect',
+        'dimensions callback' => 'image_resize_dimensions',
+        'form callback' => 'image_resize_form',
+        'summary theme' => 'image_resize_summary',
+        'module' => 'image',
+        'name' => 'image_scale_and_crop',
+        'data' => array(
+          'width' => '150',
+          'height' => '90',
         ),
         'weight' => '1',
       ),
