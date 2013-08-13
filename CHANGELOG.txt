@@ -1,6 +1,11 @@
 Stanford Image Styles x.x-x.x xxxx-xx-xx
 --------------------------------------
 
+Stanford Image 7.x-2.0-jsadev 2013-08-13
+----------------------------------------
+Changes based on for Jumpstart Academic
+https://docs.google.com/a/stanford.edu/spreadsheet/ccc?key=0AiBtvbb0jvWadDF1LVZ0djdDdFJ2MlZlYmI2YUVfNXc#gid=0
+
 Stanford Image 7.x-1.0-alpha7 2013-04-25
 ----------------------------------------
 Added 5 new image styles:
