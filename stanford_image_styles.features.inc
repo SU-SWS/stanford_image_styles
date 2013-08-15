@@ -318,6 +318,29 @@ function stanford_image_styles_image_default_styles() {
     ),
   );
 
+  // Exported image style: large-scaled.
+  $styles['large-scaled'] = array(
+    'name' => 'large-scaled',
+    'effects' => array(
+      11 => array(
+        'label' => 'Scale',
+        'help' => 'Scaling will maintain the aspect-ratio of the original image. If only a single dimension is specified, the other dimension will be calculated.',
+        'effect callback' => 'image_scale_effect',
+        'dimensions callback' => 'image_scale_dimensions',
+        'form callback' => 'image_scale_form',
+        'summary theme' => 'image_scale_summary',
+        'module' => 'image',
+        'name' => 'image_scale',
+        'data' => array(
+          'width' => '270',
+          'height' => '270',
+          'upscale' => 0,
+        ),
+        'weight' => '1',
+      ),
+    ),
+  );
+
   // Exported image style: large-square.
   $styles['large-square'] = array(
     'name' => 'large-square',
@@ -384,6 +407,29 @@ function stanford_image_styles_image_default_styles() {
     ),
   );
 
+  // Exported image style: med-landscape-scaled.
+  $styles['med-landscape-scaled'] = array(
+    'name' => 'med-landscape-scaled',
+    'effects' => array(
+      3 => array(
+        'label' => 'Scale',
+        'help' => 'Scaling will maintain the aspect-ratio of the original image. If only a single dimension is specified, the other dimension will be calculated.',
+        'effect callback' => 'image_scale_effect',
+        'dimensions callback' => 'image_scale_dimensions',
+        'form callback' => 'image_scale_form',
+        'summary theme' => 'image_scale_summary',
+        'module' => 'image',
+        'name' => 'image_scale',
+        'data' => array(
+          'width' => '270',
+          'height' => '',
+          'upscale' => 0,
+        ),
+        'weight' => '1',
+      ),
+    ),
+  );
+
   // Exported image style: med-profile.
   $styles['med-profile'] = array(
     'name' => 'med-profile',
@@ -406,6 +452,29 @@ function stanford_image_styles_image_default_styles() {
     ),
   );
 
+  // Exported image style: med-profile-scaled.
+  $styles['med-profile-scaled'] = array(
+    'name' => 'med-profile-scaled',
+    'effects' => array(
+      1 => array(
+        'label' => 'Scale',
+        'help' => 'Scaling will maintain the aspect-ratio of the original image. If only a single dimension is specified, the other dimension will be calculated.',
+        'effect callback' => 'image_scale_effect',
+        'dimensions callback' => 'image_scale_dimensions',
+        'form callback' => 'image_scale_form',
+        'summary theme' => 'image_scale_summary',
+        'module' => 'image',
+        'name' => 'image_scale',
+        'data' => array(
+          'width' => '',
+          'height' => '270',
+          'upscale' => 0,
+        ),
+        'weight' => '1',
+      ),
+    ),
+  );
+
   // Exported image style: med-square.
   $styles['med-square'] = array(
     'name' => 'med-square',
@@ -422,6 +491,51 @@ function stanford_image_styles_image_default_styles() {
         'data' => array(
           'width' => '140',
           'height' => '140',
+        ),
+        'weight' => '1',
+      ),
+    ),
+  );
+
+  // Exported image style: medlg-profile.
+  $styles['medlg-profile'] = array(
+    'name' => 'medlg-profile',
+    'effects' => array(
+      11 => array(
+        'label' => 'Scale and crop',
+        'help' => 'Scale and crop will maintain the aspect-ratio of the original image, then crop the larger dimension. This is most useful for creating perfectly square thumbnails without stretching the image.',
+        'effect callback' => 'image_scale_and_crop_effect',
+        'dimensions callback' => 'image_resize_dimensions',
+        'form callback' => 'image_resize_form',
+        'summary theme' => 'image_resize_summary',
+        'module' => 'image',
+        'name' => 'image_scale_and_crop',
+        'data' => array(
+          'width' => '220',
+          'height' => '260',
+        ),
+        'weight' => '1',
+      ),
+    ),
+  );
+
+  // Exported image style: page-width.
+  $styles['page-width'] = array(
+    'name' => 'page-width',
+    'effects' => array(
+      7 => array(
+        'label' => 'Scale',
+        'help' => 'Scaling will maintain the aspect-ratio of the original image. If only a single dimension is specified, the other dimension will be calculated.',
+        'effect callback' => 'image_scale_effect',
+        'dimensions callback' => 'image_scale_dimensions',
+        'form callback' => 'image_scale_form',
+        'summary theme' => 'image_scale_summary',
+        'module' => 'image',
+        'name' => 'image_scale',
+        'data' => array(
+          'width' => '1200',
+          'height' => '',
+          'upscale' => 0,
         ),
         'weight' => '1',
       ),
@@ -532,120 +646,6 @@ function stanford_image_styles_image_default_styles() {
         'data' => array(
           'width' => '70',
           'height' => '70',
-        ),
-        'weight' => '1',
-      ),
-    ),
-  );
-
-  // Exported image style: large-scaled.
-  $styles['large-scaled'] = array(
-    'name' => 'large-scaled',
-    'effects' => array(
-      5 => array(
-        'label' => 'Scale',
-        'help' => 'Scaling will maintain the aspect-ratio of the original image. If only a single dimension is specified, the other dimension will be calculated.',
-        'effect callback' => 'image_scale_effect',
-        'dimensions callback' => 'image_scale_dimensions',
-        'form callback' => 'image_scale_form',
-        'summary theme' => 'image_scale_summary',
-        'module' => 'image',
-        'name' => 'image_scale',
-        'data' => array(
-          'width' => '270',
-          'height' => '',
-          'upscale' => 0,
-        ),
-        'weight' => '1',
-      ),
-    ),
-  );
-
-  // Exported image style: med-landscape-scaled.
-  $styles['med-landscape-scaled'] = array(
-    'name' => 'med-landscape-scaled',
-    'effects' => array(
-      3 => array(
-        'label' => 'Scale',
-        'help' => 'Scaling will maintain the aspect-ratio of the original image. If only a single dimension is specified, the other dimension will be calculated.',
-        'effect callback' => 'image_scale_effect',
-        'dimensions callback' => 'image_scale_dimensions',
-        'form callback' => 'image_scale_form',
-        'summary theme' => 'image_scale_summary',
-        'module' => 'image',
-        'name' => 'image_scale',
-        'data' => array(
-          'width' => '270',
-          'height' => '',
-          'upscale' => 0,
-        ),
-        'weight' => '1',
-      ),
-    ),
-  );
-
-  // Exported image style: med-profile-scaled.
-  $styles['med-profile-scaled'] = array(
-    'name' => 'med-profile-scaled',
-    'effects' => array(
-      1 => array(
-        'label' => 'Scale',
-        'help' => 'Scaling will maintain the aspect-ratio of the original image. If only a single dimension is specified, the other dimension will be calculated.',
-        'effect callback' => 'image_scale_effect',
-        'dimensions callback' => 'image_scale_dimensions',
-        'form callback' => 'image_scale_form',
-        'summary theme' => 'image_scale_summary',
-        'module' => 'image',
-        'name' => 'image_scale',
-        'data' => array(
-          'width' => '',
-          'height' => '270',
-          'upscale' => 0,
-        ),
-        'weight' => '1',
-      ),
-    ),
-  );
-
-  // Exported image style: medlg-profile.
-  $styles['medlg-profile'] = array(
-    'name' => 'medlg-profile',
-    'effects' => array(
-      11 => array(
-        'label' => 'Scale and crop',
-        'help' => 'Scale and crop will maintain the aspect-ratio of the original image, then crop the larger dimension. This is most useful for creating perfectly square thumbnails without stretching the image.',
-        'effect callback' => 'image_scale_and_crop_effect',
-        'dimensions callback' => 'image_resize_dimensions',
-        'form callback' => 'image_resize_form',
-        'summary theme' => 'image_resize_summary',
-        'module' => 'image',
-        'name' => 'image_scale_and_crop',
-        'data' => array(
-          'width' => '220',
-          'height' => '260',
-        ),
-        'weight' => '1',
-      ),
-    ),
-  );
-
-  // Exported image style: page-width.
-  $styles['page-width'] = array(
-    'name' => 'page-width',
-    'effects' => array(
-      7 => array(
-        'label' => 'Scale',
-        'help' => 'Scaling will maintain the aspect-ratio of the original image. If only a single dimension is specified, the other dimension will be calculated.',
-        'effect callback' => 'image_scale_effect',
-        'dimensions callback' => 'image_scale_dimensions',
-        'form callback' => 'image_scale_form',
-        'summary theme' => 'image_scale_summary',
-        'module' => 'image',
-        'name' => 'image_scale',
-        'data' => array(
-          'width' => '1200',
-          'height' => '',
-          'upscale' => 0,
         ),
         'weight' => '1',
       ),
