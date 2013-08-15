@@ -1,10 +1,10 @@
 Stanford Image Styles x.x-x.x xxxx-xx-xx
 --------------------------------------
-Stanford Image 7.x-2.x-jsadev 2013-08-13
-----------------------------------------
-Added image styles based on 
-https://docs.google.com/a/stanford.edu/spreadsheet/ccc?key=0AiBtvbb0jvWadDF1LVZ0djdDdFJ2MlZlYmI2YUVfNXc#gid=0
 
+Stanford Image 7.x-1.0-alpha9 2013-07-25
+----------------------------------------
+-Reverted commit 1220a4807678646edc652e3660559644ad34e595
+-7.x-1.0-alpha8 should not be used
 
 Stanford Image 7.x-1.0-alpha7 2013-04-25
 ----------------------------------------
@@ -28,4 +28,3 @@ Stanford Image 7.x-1.0-alpha5 2013-03-06
   - med-landscape-scaled
   - med-profile-scaled
   - page-width
-
