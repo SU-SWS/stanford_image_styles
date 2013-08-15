@@ -3,6 +3,14 @@ Stanford Image Styles x.x-x.x xxxx-xx-xx
 
 Stanford Image 7.x-2.0-jsadev03 2013-08-14
 ----------------------------------------
+Added:
+6-col-banner-short
+6-col-banner-tall
+8-col-banner-short
+8-col-banner-tall
+
+Stanford Image 7.x-2.0-jsadev03 2013-08-14
+----------------------------------------
 Oops, forgot Large-scaled!
 
 Stanford Image 7.x-2.0-jsadev 2013-08-13
