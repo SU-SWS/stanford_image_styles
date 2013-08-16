@@ -124,7 +124,51 @@ function stanford_image_styles_image_default_styles() {
   $styles['6-col-banner'] = array(
     'name' => '6-col-banner',
     'effects' => array(
-      45 => array(
+      21 => array(
+        'label' => 'Scale and crop',
+        'help' => 'Scale and crop will maintain the aspect-ratio of the original image, then crop the larger dimension. This is most useful for creating perfectly square thumbnails without stretching the image.',
+        'effect callback' => 'image_scale_and_crop_effect',
+        'dimensions callback' => 'image_resize_dimensions',
+        'form callback' => 'image_resize_form',
+        'summary theme' => 'image_resize_summary',
+        'module' => 'image',
+        'name' => 'image_scale_and_crop',
+        'data' => array(
+          'width' => '570',
+          'height' => '230',
+        ),
+        'weight' => '1',
+      ),
+    ),
+  );
+
+  // Exported image style: 6-col-banner-short.
+  $styles['6-col-banner-short'] = array(
+    'name' => '6-col-banner-short',
+    'effects' => array(
+      13 => array(
+        'label' => 'Scale and crop',
+        'help' => 'Scale and crop will maintain the aspect-ratio of the original image, then crop the larger dimension. This is most useful for creating perfectly square thumbnails without stretching the image.',
+        'effect callback' => 'image_scale_and_crop_effect',
+        'dimensions callback' => 'image_resize_dimensions',
+        'form callback' => 'image_resize_form',
+        'summary theme' => 'image_resize_summary',
+        'module' => 'image',
+        'name' => 'image_scale_and_crop',
+        'data' => array(
+          'width' => '570',
+          'height' => '270',
+        ),
+        'weight' => '1',
+      ),
+    ),
+  );
+
+  // Exported image style: 6-col-banner-tall.
+  $styles['6-col-banner-tall'] = array(
+    'name' => '6-col-banner-tall',
+    'effects' => array(
+      19 => array(
         'label' => 'Scale and crop',
         'help' => 'Scale and crop will maintain the aspect-ratio of the original image, then crop the larger dimension. This is most useful for creating perfectly square thumbnails without stretching the image.',
         'effect callback' => 'image_scale_and_crop_effect',
@@ -208,11 +252,11 @@ function stanford_image_styles_image_default_styles() {
     ),
   );
 
-  // Exported image style: 9-col-banner.
-  $styles['9-col-banner'] = array(
-    'name' => '9-col-banner',
+  // Exported image style: 8-col-banner-short.
+  $styles['8-col-banner-short'] = array(
+    'name' => '8-col-banner-short',
     'effects' => array(
-      5 => array(
+      15 => array(
         'label' => 'Scale and crop',
         'help' => 'Scale and crop will maintain the aspect-ratio of the original image, then crop the larger dimension. This is most useful for creating perfectly square thumbnails without stretching the image.',
         'effect callback' => 'image_scale_and_crop_effect',
@@ -222,7 +266,51 @@ function stanford_image_styles_image_default_styles() {
         'module' => 'image',
         'name' => 'image_scale_and_crop',
         'data' => array(
-          'width' => '870',
+          'width' => '770',
+          'height' => '270',
+        ),
+        'weight' => '1',
+      ),
+    ),
+  );
+
+  // Exported image style: 8-col-banner-tall.
+  $styles['8-col-banner-tall'] = array(
+    'name' => '8-col-banner-tall',
+    'effects' => array(
+      17 => array(
+        'label' => 'Scale and crop',
+        'help' => 'Scale and crop will maintain the aspect-ratio of the original image, then crop the larger dimension. This is most useful for creating perfectly square thumbnails without stretching the image.',
+        'effect callback' => 'image_scale_and_crop_effect',
+        'dimensions callback' => 'image_resize_dimensions',
+        'form callback' => 'image_resize_form',
+        'summary theme' => 'image_resize_summary',
+        'module' => 'image',
+        'name' => 'image_scale_and_crop',
+        'data' => array(
+          'width' => '770',
+          'height' => '440',
+        ),
+        'weight' => '1',
+      ),
+    ),
+  );
+
+  // Exported image style: 9-col-banner.
+  $styles['9-col-banner'] = array(
+    'name' => '9-col-banner',
+    'effects' => array(
+      23 => array(
+        'label' => 'Scale and crop',
+        'help' => 'Scale and crop will maintain the aspect-ratio of the original image, then crop the larger dimension. This is most useful for creating perfectly square thumbnails without stretching the image.',
+        'effect callback' => 'image_scale_and_crop_effect',
+        'dimensions callback' => 'image_resize_dimensions',
+        'form callback' => 'image_resize_form',
+        'summary theme' => 'image_resize_summary',
+        'module' => 'image',
+        'name' => 'image_scale_and_crop',
+        'data' => array(
+          'width' => '970',
           'height' => '330',
         ),
         'weight' => '1',
@@ -234,7 +322,7 @@ function stanford_image_styles_image_default_styles() {
   $styles['9-col-banner-short'] = array(
     'name' => '9-col-banner-short',
     'effects' => array(
-      13 => array(
+      25 => array(
         'label' => 'Scale and crop',
         'help' => 'Scale and crop will maintain the aspect-ratio of the original image, then crop the larger dimension. This is most useful for creating perfectly square thumbnails without stretching the image.',
         'effect callback' => 'image_scale_and_crop_effect',
@@ -244,7 +332,7 @@ function stanford_image_styles_image_default_styles() {
         'module' => 'image',
         'name' => 'image_scale_and_crop',
         'data' => array(
-          'width' => '870',
+          'width' => '970',
           'height' => '270',
         ),
         'weight' => '1',
@@ -274,6 +362,28 @@ function stanford_image_styles_image_default_styles() {
     ),
   );
 
+  // Exported image style: icon-square.
+  $styles['icon-square'] = array(
+    'name' => 'icon-square',
+    'effects' => array(
+      1 => array(
+        'label' => 'Scale and crop',
+        'help' => 'Scale and crop will maintain the aspect-ratio of the original image, then crop the larger dimension. This is most useful for creating perfectly square thumbnails without stretching the image.',
+        'effect callback' => 'image_scale_and_crop_effect',
+        'dimensions callback' => 'image_resize_dimensions',
+        'form callback' => 'image_resize_form',
+        'summary theme' => 'image_resize_summary',
+        'module' => 'image',
+        'name' => 'image_scale_and_crop',
+        'data' => array(
+          'width' => '50',
+          'height' => '50',
+        ),
+        'weight' => '1',
+      ),
+    ),
+  );
+
   // Exported image style: large-landscape.
   $styles['large-landscape'] = array(
     'name' => 'large-landscape',
@@ -290,6 +400,29 @@ function stanford_image_styles_image_default_styles() {
         'data' => array(
           'width' => '370',
           'height' => '275',
+        ),
+        'weight' => '1',
+      ),
+    ),
+  );
+
+  // Exported image style: large-landscape-scaled.
+  $styles['large-landscape-scaled'] = array(
+    'name' => 'large-landscape-scaled',
+    'effects' => array(
+      9 => array(
+        'label' => 'Scale',
+        'help' => 'Scaling will maintain the aspect-ratio of the original image. If only a single dimension is specified, the other dimension will be calculated.',
+        'effect callback' => 'image_scale_effect',
+        'dimensions callback' => 'image_scale_dimensions',
+        'form callback' => 'image_scale_form',
+        'summary theme' => 'image_scale_summary',
+        'module' => 'image',
+        'name' => 'image_scale',
+        'data' => array(
+          'width' => '270',
+          'height' => '',
+          'upscale' => 0,
         ),
         'weight' => '1',
       ),
@@ -318,6 +451,29 @@ function stanford_image_styles_image_default_styles() {
     ),
   );
 
+  // Exported image style: large-profile-scaled.
+  $styles['large-profile-scaled'] = array(
+    'name' => 'large-profile-scaled',
+    'effects' => array(
+      3 => array(
+        'label' => 'Scale',
+        'help' => 'Scaling will maintain the aspect-ratio of the original image. If only a single dimension is specified, the other dimension will be calculated.',
+        'effect callback' => 'image_scale_effect',
+        'dimensions callback' => 'image_scale_dimensions',
+        'form callback' => 'image_scale_form',
+        'summary theme' => 'image_scale_summary',
+        'module' => 'image',
+        'name' => 'image_scale',
+        'data' => array(
+          'width' => '',
+          'height' => '270',
+          'upscale' => 0,
+        ),
+        'weight' => '1',
+      ),
+    ),
+  );
+
   // Exported image style: large-scaled.
   $styles['large-scaled'] = array(
     'name' => 'large-scaled',
@@ -333,7 +489,7 @@ function stanford_image_styles_image_default_styles() {
         'name' => 'image_scale',
         'data' => array(
           'width' => '270',
-          'height' => '270',
+          'height' => '',
           'upscale' => 0,
         ),
         'weight' => '1',
@@ -558,6 +714,28 @@ function stanford_image_styles_image_default_styles() {
         'data' => array(
           'width' => '170',
           'height' => '125',
+        ),
+        'weight' => '1',
+      ),
+    ),
+  );
+
+  // Exported image style: sm-profile.
+  $styles['sm-profile'] = array(
+    'name' => 'sm-profile',
+    'effects' => array(
+      27 => array(
+        'label' => 'Scale and crop',
+        'help' => 'Scale and crop will maintain the aspect-ratio of the original image, then crop the larger dimension. This is most useful for creating perfectly square thumbnails without stretching the image.',
+        'effect callback' => 'image_scale_and_crop_effect',
+        'dimensions callback' => 'image_resize_dimensions',
+        'form callback' => 'image_resize_form',
+        'summary theme' => 'image_resize_summary',
+        'module' => 'image',
+        'name' => 'image_scale_and_crop',
+        'data' => array(
+          'width' => '100',
+          'height' => '130',
         ),
         'weight' => '1',
       ),
