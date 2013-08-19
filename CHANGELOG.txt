@@ -1,6 +1,18 @@
 Stanford Image Styles x.x-x.x xxxx-xx-xx
 --------------------------------------
 
+Stanford Image 7.x-1.0-alpha11 2013-08-19
+-----------------------------------------
+By cjwest: Added the following image styles:
+  -6-col-banner-short
+  -6-col-banner-tall
+  -8-col-banner-short
+  -8-col-banner-tall
+  -icon-square
+  -large-landscape-scaled
+  -large-profile-scaled
+  -sm-profile
+
 Stanford Image 7.x-1.0-alpha10 2013-08-15
 -----------------------------------------
 By cjwest: Added several image styles
