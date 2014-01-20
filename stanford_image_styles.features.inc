@@ -30,6 +30,7 @@ function stanford_image_styles_image_default_styles() {
         'weight' => 1,
       ),
     ),
+    'label' => '12-col-banner',
   );
 
   // Exported image style: 3-col-header.
@@ -52,6 +53,7 @@ function stanford_image_styles_image_default_styles() {
         'weight' => 1,
       ),
     ),
+    'label' => '3-col-header',
   );
 
   // Exported image style: 4-col-header.
@@ -74,6 +76,7 @@ function stanford_image_styles_image_default_styles() {
         'weight' => 1,
       ),
     ),
+    'label' => '4-col-header',
   );
 
   // Exported image style: 6-col-banner.
@@ -96,6 +99,7 @@ function stanford_image_styles_image_default_styles() {
         'weight' => 1,
       ),
     ),
+    'label' => '6-col-banner',
   );
 
   // Exported image style: 6-col-banner-short.
@@ -112,12 +116,13 @@ function stanford_image_styles_image_default_styles() {
         'module' => 'image',
         'name' => 'image_scale_and_crop',
         'data' => array(
-          'width' => '570',
-          'height' => '270',
+          'width' => 570,
+          'height' => 270,
         ),
-        'weight' => '1',
+        'weight' => 1,
       ),
     ),
+    'label' => '6-col-banner-short',
   );
 
   // Exported image style: 6-col-banner-tall.
@@ -134,12 +139,13 @@ function stanford_image_styles_image_default_styles() {
         'module' => 'image',
         'name' => 'image_scale_and_crop',
         'data' => array(
-          'width' => '570',
-          'height' => '320',
+          'width' => 570,
+          'height' => 320,
         ),
-        'weight' => '1',
+        'weight' => 1,
       ),
     ),
+    'label' => '6-col-banner-tall',
   );
 
   // Exported image style: 8-col-banner.
@@ -162,6 +168,7 @@ function stanford_image_styles_image_default_styles() {
         'weight' => 1,
       ),
     ),
+    'label' => '8-col-banner',
   );
 
   // Exported image style: 8-col-banner-short.
@@ -178,12 +185,13 @@ function stanford_image_styles_image_default_styles() {
         'module' => 'image',
         'name' => 'image_scale_and_crop',
         'data' => array(
-          'width' => '770',
-          'height' => '270',
+          'width' => 770,
+          'height' => 270,
         ),
-        'weight' => '1',
+        'weight' => 1,
       ),
     ),
+    'label' => '8-col-banner-short',
   );
 
   // Exported image style: 8-col-banner-tall.
@@ -200,12 +208,13 @@ function stanford_image_styles_image_default_styles() {
         'module' => 'image',
         'name' => 'image_scale_and_crop',
         'data' => array(
-          'width' => '770',
-          'height' => '440',
+          'width' => 770,
+          'height' => 440,
         ),
-        'weight' => '1',
+        'weight' => 1,
       ),
     ),
+    'label' => '8-col-banner-tall',
   );
 
   // Exported image style: 9-col-banner.
@@ -228,6 +237,7 @@ function stanford_image_styles_image_default_styles() {
         'weight' => 1,
       ),
     ),
+    'label' => '9-col-banner',
   );
 
   // Exported image style: 9-col-banner-short.
@@ -250,6 +260,7 @@ function stanford_image_styles_image_default_styles() {
         'weight' => 1,
       ),
     ),
+    'label' => '9-col-banner-short',
   );
 
   // Exported image style: icon-square.
@@ -266,12 +277,13 @@ function stanford_image_styles_image_default_styles() {
         'module' => 'image',
         'name' => 'image_scale_and_crop',
         'data' => array(
-          'width' => '50',
-          'height' => '50',
+          'width' => 50,
+          'height' => 50,
         ),
-        'weight' => '1',
+        'weight' => 1,
       ),
     ),
+    'label' => 'icon-square',
   );
 
   // Exported image style: large-landscape.
@@ -294,6 +306,7 @@ function stanford_image_styles_image_default_styles() {
         'weight' => 1,
       ),
     ),
+    'label' => 'large-landscape',
   );
 
   // Exported image style: large-landscape-scaled.
@@ -310,13 +323,14 @@ function stanford_image_styles_image_default_styles() {
         'module' => 'image',
         'name' => 'image_scale',
         'data' => array(
-          'width' => '270',
+          'width' => 270,
           'height' => '',
           'upscale' => 0,
         ),
-        'weight' => '1',
+        'weight' => 1,
       ),
     ),
+    'label' => 'large-landscape-scaled',
   );
 
   // Exported image style: large-profile.
@@ -339,6 +353,7 @@ function stanford_image_styles_image_default_styles() {
         'weight' => 1,
       ),
     ),
+    'label' => 'large-profile',
   );
 
   // Exported image style: large-profile-scaled.
@@ -356,12 +371,13 @@ function stanford_image_styles_image_default_styles() {
         'name' => 'image_scale',
         'data' => array(
           'width' => '',
-          'height' => '300',
+          'height' => 300,
           'upscale' => 0,
         ),
-        'weight' => '1',
+        'weight' => 1,
       ),
     ),
+    'label' => 'large-profile-scaled',
   );
 
   // Exported image style: large-scaled.
@@ -378,13 +394,14 @@ function stanford_image_styles_image_default_styles() {
         'module' => 'image',
         'name' => 'image_scale',
         'data' => array(
-          'width' => '270',
-          'height' => '270',
+          'width' => 270,
+          'height' => 270,
           'upscale' => 0,
         ),
-        'weight' => '1',
+        'weight' => 1,
       ),
     ),
+    'label' => 'large-scaled',
   );
 
   // Exported image style: large-square.
@@ -407,6 +424,7 @@ function stanford_image_styles_image_default_styles() {
         'weight' => 1,
       ),
     ),
+    'label' => 'large-square',
   );
 
   // Exported image style: med-landscape.
@@ -429,6 +447,7 @@ function stanford_image_styles_image_default_styles() {
         'weight' => 1,
       ),
     ),
+    'label' => 'med-landscape',
   );
 
   // Exported image style: med-landscape-scaled.
@@ -445,13 +464,14 @@ function stanford_image_styles_image_default_styles() {
         'module' => 'image',
         'name' => 'image_scale',
         'data' => array(
-          'width' => '270',
+          'width' => 270,
           'height' => '',
           'upscale' => 0,
         ),
-        'weight' => '1',
+        'weight' => 1,
       ),
     ),
+    'label' => 'med-landscape-scaled',
   );
 
   // Exported image style: med-profile.
@@ -474,6 +494,7 @@ function stanford_image_styles_image_default_styles() {
         'weight' => 1,
       ),
     ),
+    'label' => 'med-profile',
   );
 
   // Exported image style: med-profile-scaled.
@@ -491,12 +512,13 @@ function stanford_image_styles_image_default_styles() {
         'name' => 'image_scale',
         'data' => array(
           'width' => '',
-          'height' => '270',
+          'height' => 270,
           'upscale' => 0,
         ),
-        'weight' => '1',
+        'weight' => 1,
       ),
     ),
+    'label' => 'med-profile-scaled',
   );
 
   // Exported image style: med-square.
@@ -519,6 +541,7 @@ function stanford_image_styles_image_default_styles() {
         'weight' => 1,
       ),
     ),
+    'label' => 'med-square',
   );
 
   // Exported image style: page-width.
@@ -542,6 +565,7 @@ function stanford_image_styles_image_default_styles() {
         'weight' => 1,
       ),
     ),
+    'label' => 'page-width',
   );
 
   // Exported image style: sm-landscape.
@@ -564,6 +588,7 @@ function stanford_image_styles_image_default_styles() {
         'weight' => 1,
       ),
     ),
+    'label' => 'sm-landscape',
   );
 
   // Exported image style: sm-profile.
@@ -586,6 +611,7 @@ function stanford_image_styles_image_default_styles() {
         'weight' => 1,
       ),
     ),
+    'label' => 'sm-profile',
   );
 
   // Exported image style: sm-square.
@@ -608,6 +634,7 @@ function stanford_image_styles_image_default_styles() {
         'weight' => 1,
       ),
     ),
+    'label' => 'sm-square',
   );
 
   // Exported image style: thmb-landscape.
@@ -630,6 +657,7 @@ function stanford_image_styles_image_default_styles() {
         'weight' => 1,
       ),
     ),
+    'label' => 'thmb-landscape',
   );
 
   // Exported image style: thmb-profile.
@@ -652,6 +680,7 @@ function stanford_image_styles_image_default_styles() {
         'weight' => 1,
       ),
     ),
+    'label' => 'thmb-profile',
   );
 
   // Exported image style: thmb-square.
@@ -674,6 +703,7 @@ function stanford_image_styles_image_default_styles() {
         'weight' => 1,
       ),
     ),
+    'label' => 'thmb-square',
   );
 
   return $styles;
