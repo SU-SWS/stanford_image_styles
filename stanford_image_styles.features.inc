@@ -310,7 +310,7 @@ function stanford_image_styles_image_default_styles() {
         'module' => 'image',
         'name' => 'image_scale_and_crop',
         'data' => array(
-          'width' => '970',
+          'width' => '870',
           'height' => '330',
         ),
         'weight' => '1',
@@ -332,7 +332,7 @@ function stanford_image_styles_image_default_styles() {
         'module' => 'image',
         'name' => 'image_scale_and_crop',
         'data' => array(
-          'width' => '970',
+          'width' => '870',
           'height' => '270',
         ),
         'weight' => '1',
