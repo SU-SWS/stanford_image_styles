@@ -395,7 +395,7 @@ function stanford_image_styles_image_default_styles() {
         'name' => 'image_scale',
         'data' => array(
           'width' => 270,
-          'height' => 270,
+          'height' => '',
           'upscale' => 0,
         ),
         'weight' => 1,
