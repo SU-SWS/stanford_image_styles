@@ -4,6 +4,7 @@ core = 7.x
 package = Stanford
 version = 7.x-3.0
 project = stanford_image_styles
+project status url = https://github.com/SU-SWS/stanford_image_styles
 dependencies[] = image
 features[features_api][] = api:2
 features[image][] = 12-col-banner
