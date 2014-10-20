@@ -19,6 +19,7 @@ features[image][] = 8-col-banner-short
 features[image][] = 8-col-banner-tall
 features[image][] = 9-col-banner
 features[image][] = 9-col-banner-short
+features[image][] = icon-profile
 features[image][] = icon-square
 features[image][] = large-landscape
 features[image][] = large-landscape-scaled
