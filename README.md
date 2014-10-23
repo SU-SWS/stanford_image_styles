@@ -1,7 +1,7 @@
 #[Stanford Image Styles](https://github.com/SU-SWS/stanford_image_styles)
-##### Version: 7.x-3.0
+##### Version: 7.x-3.1
 
-Maintainers: [cjwest](https://github.com/cjwest), [meganem](https://github.com/meganem)   
+Maintainers: [cjwest](https://github.com/cjwest), [meganem](https://github.com/meganem)
 [Changelog.txt](CHANGELOG.txt)
 
 This module provides some default image style presets. It is a requirement of the [stanford image module](https://github.com/SU-SWS/stanford_image) and should be used in all projects.

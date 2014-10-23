@@ -1,8 +1,21 @@
 Stanford Image Styles x.x-x.x xxxx-xx-xx
 --------------------------------------
 
-Stanford Image 7.x-3.0-alpha1 2014-03-11
+Stanford Image Styles 7.x-3.1 2014-10-23
 ----------------------------------------
+Changes since 7.x-3.0:
+By cjwest:
+  - Added 12-col-banner-tall style
+  - Added icon-profile, scale 50x65
+  - Added 6-col-photo-landscape
+
+Stanford Image Styles 7.x-3.0 2014-06-30
+----------------------------------------
+Changes since 7.x-3.0-alpha1:
+- large-scaled should be 270px wide with no width defined
+
+Stanford Image Styles 7.x-3.0-alpha1 2014-03-11
+-----------------------------------------------
 - Jumpstart Product Compatible Version
 - Features 2.x Compatible
 - Restored a number of image styles view modes and sizes.
