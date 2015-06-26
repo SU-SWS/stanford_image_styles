@@ -1,5 +1,5 @@
 #[Stanford Image Styles](https://github.com/SU-SWS/stanford_image_styles)
-##### Version: 7.x-3.1
+##### Version: 7.x-3.2
 
 Maintainers: [cjwest](https://github.com/cjwest), [meganem](https://github.com/meganem)
 [Changelog.txt](CHANGELOG.txt)
