@@ -1,6 +1,11 @@
 Stanford Image Styles x.x-x.x xxxx-xx-xx
 --------------------------------------
 
+Stanford Image Styles 7.x-3.2 2015-06-26
+----------------------------------------
+- Removed the junk from Features >= 7.x-2.4 that is not needed any longer.
+  See https://www.drupal.org/node/2308801
+
 Stanford Image Styles 7.x-3.1 2014-10-23
 ----------------------------------------
 Changes since 7.x-3.0:
