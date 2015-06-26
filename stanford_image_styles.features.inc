@@ -221,6 +221,22 @@ function stanford_image_styles_image_default_styles() {
     ),
   );
 
+  // Exported image style: icon-scaled.
+  $styles['icon-scaled'] = array(
+    'label' => 'icon-scaled',
+    'effects' => array(
+      1 => array(
+        'name' => 'image_scale',
+        'data' => array(
+          'width' => 50,
+          'height' => '',
+          'upscale' => 0,
+        ),
+        'weight' => 1,
+      ),
+    ),
+  );
+
   // Exported image style: icon-square.
   $styles['icon-square'] = array(
     'effects' => array(
@@ -450,6 +466,22 @@ function stanford_image_styles_image_default_styles() {
       ),
     ),
     'label' => 'sm-profile',
+  );
+
+  // Exported image style: sm-scaled.
+  $styles['sm-scaled'] = array(
+    'label' => 'sm-scaled',
+    'effects' => array(
+      2 => array(
+        'name' => 'image_scale',
+        'data' => array(
+          'width' => 120,
+          'height' => '',
+          'upscale' => 0,
+        ),
+        'weight' => 1,
+      ),
+    ),
   );
 
   // Exported image style: sm-square.
