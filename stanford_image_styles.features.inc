@@ -205,6 +205,21 @@ function stanford_image_styles_image_default_styles() {
     'label' => '9-col-banner-short',
   );
 
+  // Exported image style: full-width-banner.
+  $styles['full-width-banner'] = array(
+    'label' => 'full-width-banner',
+    'effects' => array(
+      1 => array(
+        'name' => 'image_scale_and_crop',
+        'data' => array(
+          'width' => 1600,
+          'height' => 600,
+        ),
+        'weight' => 1,
+      ),
+    ),
+  );
+
   // Exported image style: icon-profile.
   $styles['icon-profile'] = array(
     'label' => 'icon-profile',
