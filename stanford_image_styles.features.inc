@@ -220,6 +220,36 @@ function stanford_image_styles_image_default_styles() {
     ),
   );
 
+  // Exported image style: half-page-profile.
+  $styles['half-page-profile'] = array(
+    'label' => 'half-page-profile',
+    'effects' => array(
+      3 => array(
+        'name' => 'image_scale_and_crop',
+        'data' => array(
+          'width' => 600,
+          'height' => 700,
+        ),
+        'weight' => 1,
+      ),
+    ),
+  );
+
+  // Exported image style: huge-landscape.
+  $styles['huge-landscape'] = array(
+    'label' => 'huge-landscape',
+    'effects' => array(
+      2 => array(
+        'name' => 'image_scale_and_crop',
+        'data' => array(
+          'width' => 1500,
+          'height' => 1200,
+        ),
+        'weight' => 1,
+      ),
+    ),
+  );
+
   // Exported image style: icon-profile.
   $styles['icon-profile'] = array(
     'label' => 'icon-profile',
