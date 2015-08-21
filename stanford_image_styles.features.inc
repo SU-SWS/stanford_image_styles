@@ -205,6 +205,51 @@ function stanford_image_styles_image_default_styles() {
     'label' => '9-col-banner-short',
   );
 
+  // Exported image style: full-width-banner.
+  $styles['full-width-banner'] = array(
+    'label' => 'Full Width Banner (Scale and Crop 1600x600)',
+    'effects' => array(
+      1 => array(
+        'name' => 'image_scale_and_crop',
+        'data' => array(
+          'width' => 1600,
+          'height' => 600,
+        ),
+        'weight' => 1,
+      ),
+    ),
+  );
+
+  // Exported image style: half-page-profile.
+  $styles['half-page-profile'] = array(
+    'label' => 'Half Page Profile (Scale and Crop 600x700)',
+    'effects' => array(
+      3 => array(
+        'name' => 'image_scale_and_crop',
+        'data' => array(
+          'width' => 600,
+          'height' => 700,
+        ),
+        'weight' => 1,
+      ),
+    ),
+  );
+
+  // Exported image style: huge-landscape.
+  $styles['huge-landscape'] = array(
+    'label' => 'Huge Landscape (Scale and Crop 1500x1200)',
+    'effects' => array(
+      2 => array(
+        'name' => 'image_scale_and_crop',
+        'data' => array(
+          'width' => 1500,
+          'height' => 1200,
+        ),
+        'weight' => 1,
+      ),
+    ),
+  );
+
   // Exported image style: icon-profile.
   $styles['icon-profile'] = array(
     'label' => 'icon-profile',
