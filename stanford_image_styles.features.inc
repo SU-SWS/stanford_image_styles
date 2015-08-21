@@ -207,7 +207,7 @@ function stanford_image_styles_image_default_styles() {
 
   // Exported image style: full-width-banner.
   $styles['full-width-banner'] = array(
-    'label' => 'full-width-banner',
+    'label' => 'Full Width Banner (Scale and Crop 1600x600)',
     'effects' => array(
       1 => array(
         'name' => 'image_scale_and_crop',
@@ -222,7 +222,7 @@ function stanford_image_styles_image_default_styles() {
 
   // Exported image style: half-page-profile.
   $styles['half-page-profile'] = array(
-    'label' => 'half-page-profile',
+    'label' => 'Half Page Profile (Scale and Crop 600x700)',
     'effects' => array(
       3 => array(
         'name' => 'image_scale_and_crop',
@@ -237,7 +237,7 @@ function stanford_image_styles_image_default_styles() {
 
   // Exported image style: huge-landscape.
   $styles['huge-landscape'] = array(
-    'label' => 'huge-landscape',
+    'label' => 'Huge Landscape (Scale and Crop 1500x1200)',
     'effects' => array(
       2 => array(
         'name' => 'image_scale_and_crop',
