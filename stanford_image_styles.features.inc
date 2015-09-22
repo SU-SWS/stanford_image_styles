@@ -220,6 +220,21 @@ function stanford_image_styles_image_default_styles() {
     ),
   );
 
+  // Exported image style: full-width-banner-short.
+  $styles['full-width-banner-short'] = array(
+    'label' => 'full-width-banner-short',
+    'effects' => array(
+      1 => array(
+        'name' => 'image_scale_and_crop',
+        'data' => array(
+          'width' => 1600,
+          'height' => 500,
+        ),
+        'weight' => 1,
+      ),
+    ),
+  );
+
   // Exported image style: half-page-profile.
   $styles['half-page-profile'] = array(
     'label' => 'Half Page Profile (Scale and Crop 600x700)',
