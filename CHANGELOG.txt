@@ -1,6 +1,14 @@
 Stanford Image Styles x.x-x.x xxxx-xx-xx
 --------------------------------------
 
+Stanford Image Styles 7.x-3.3 2015-10-19
+----------------------------------------
+- BASIC-1146: Added sm-scaled and icon scaled image styles
+- Added full-width-banner image style
+- Added two new image styles
+- Updating image style labels
+- Added full width short banner
+
 Stanford Image Styles 7.x-3.2 2015-06-26
 ----------------------------------------
 - Removed the junk from Features >= 7.x-2.4 that is not needed any longer.
