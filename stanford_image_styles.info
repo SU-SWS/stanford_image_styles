@@ -40,6 +40,7 @@ features[image][] = med-square
 features[image][] = page-width
 features[image][] = sm-landscape
 features[image][] = sm-profile
+features[image][] = sm-profile-scaled
 features[image][] = sm-scaled
 features[image][] = sm-square
 features[image][] = thmb-landscape
