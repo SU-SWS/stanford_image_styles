@@ -1,6 +1,10 @@
 Stanford Image Styles x.x-x.x xxxx-xx-xx
 --------------------------------------
 
+Stanford Image Styles 7.x-3.3+5-dev 2016-02-18
+----------------------------------------
+- SOE-482: Added sm-profile-scaled image style
+
 Stanford Image Styles 7.x-3.3 2015-10-19
 ----------------------------------------
 - BASIC-1146: Added sm-scaled and icon scaled image styles
