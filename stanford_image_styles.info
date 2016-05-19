@@ -19,6 +19,7 @@ features[image][] = 8-col-banner-short
 features[image][] = 8-col-banner-tall
 features[image][] = 9-col-banner
 features[image][] = 9-col-banner-short
+features[image][] = banner-850x400
 features[image][] = full-width-banner
 features[image][] = full-width-banner-short
 features[image][] = half-page-profile
