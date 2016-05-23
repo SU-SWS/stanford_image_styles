@@ -205,6 +205,21 @@ function stanford_image_styles_image_default_styles() {
     'label' => '9-col-banner-short',
   );
 
+  // Exported image style: banner-850x400.
+  $styles['banner-850x400'] = array(
+    'label' => 'banner (850x400)',
+    'effects' => array(
+      2 => array(
+        'name' => 'image_scale_and_crop',
+        'data' => array(
+          'width' => 850,
+          'height' => 400,
+        ),
+        'weight' => 1,
+      ),
+    ),
+  );
+
   // Exported image style: full-width-banner.
   $styles['full-width-banner'] = array(
     'label' => 'Full Width Banner (Scale and Crop 1600x600)',
