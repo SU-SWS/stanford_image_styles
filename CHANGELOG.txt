@@ -1,9 +1,11 @@
 Stanford Image Styles x.x-x.x xxxx-xx-xx
 --------------------------------------
 
-Stanford Image Styles 7.x-3.3+5-dev 2016-02-18
+Stanford Image Styles 7.x-3.4 2016-07-20
 ----------------------------------------
 - SOE-482: Added sm-profile-scaled image style
+- SOE-482: Corrected height of sm-profile-scaled
+- SOE-811: Added banner-850x400
 
 Stanford Image Styles 7.x-3.3 2015-10-19
 ----------------------------------------
