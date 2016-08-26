@@ -528,6 +528,22 @@ function stanford_image_styles_image_default_styles() {
     'label' => 'sm-landscape',
   );
 
+  // Exported image style: sm-landscape-scaled.
+  $styles['sm-landscape-scaled'] = array(
+    'label' => 'sm-landscape-scaled',
+    'effects' => array(
+      1 => array(
+        'name' => 'image_scale',
+        'data' => array(
+          'width' => 125,
+          'height' => '',
+          'upscale' => 0,
+        ),
+        'weight' => 1,
+      ),
+    ),
+  );
+
   // Exported image style: sm-profile.
   $styles['sm-profile'] = array(
     'effects' => array(
