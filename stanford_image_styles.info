@@ -22,6 +22,7 @@ features[image][] = 9-col-banner-short
 features[image][] = banner-850x400
 features[image][] = full-width-banner
 features[image][] = full-width-banner-short
+features[image][] = full_width_banner_midget_scale_and_crop_1600x400
 features[image][] = half-page-profile
 features[image][] = huge-landscape
 features[image][] = icon-profile
