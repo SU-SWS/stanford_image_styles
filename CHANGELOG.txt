@@ -1,13 +1,17 @@
 Stanford Image Styles x.x-x.x xxxx-xx-xx
 --------------------------------------
 
-Stanford Image Styles 7.x-3.4 2016-07-20
+7.x-3.4+6-dev                 2016-09-16
+----------------------------------------
+- added sm-landscape-scaled	image style
+
+7.x-3.4                       2016-07-20
 ----------------------------------------
 - SOE-482: Added sm-profile-scaled image style
 - SOE-482: Corrected height of sm-profile-scaled
 - SOE-811: Added banner-850x400
 
-Stanford Image Styles 7.x-3.3 2015-10-19
+7.x-3.3                       2015-10-19
 ----------------------------------------
 - BASIC-1146: Added sm-scaled and icon scaled image styles
 - Added full-width-banner image style
@@ -15,12 +19,12 @@ Stanford Image Styles 7.x-3.3 2015-10-19
 - Updating image style labels
 - Added full width short banner
 
-Stanford Image Styles 7.x-3.2 2015-06-26
+7.x-3.2                       2015-06-26
 ----------------------------------------
 - Removed the junk from Features >= 7.x-2.4 that is not needed any longer.
   See https://www.drupal.org/node/2308801
 
-Stanford Image Styles 7.x-3.1 2014-10-23
+7.x-3.1                       2014-10-23
 ----------------------------------------
 Changes since 7.x-3.0:
 By cjwest:
@@ -28,12 +32,12 @@ By cjwest:
   - Added icon-profile, scale 50x65
   - Added 6-col-photo-landscape
 
-Stanford Image Styles 7.x-3.0 2014-06-30
+7.x-3.0                       2014-06-30
 ----------------------------------------
 Changes since 7.x-3.0-alpha1:
 - large-scaled should be 270px wide with no width defined
 
-Stanford Image Styles 7.x-3.0-alpha1 2014-03-11
+7.x-3.0-alpha1                      2014-03-11
 -----------------------------------------------
 - Jumpstart Product Compatible Version
 - Features 2.x Compatible
