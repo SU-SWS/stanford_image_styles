@@ -23,6 +23,7 @@ features[image][] = banner-850x400
 features[image][] = full-width-banner
 features[image][] = full-width-banner-short
 features[image][] = half-page-profile
+features[image][] = header_scale_850x400
 features[image][] = huge-landscape
 features[image][] = icon-profile
 features[image][] = icon-scaled

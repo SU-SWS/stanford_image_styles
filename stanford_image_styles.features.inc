@@ -265,6 +265,22 @@ function stanford_image_styles_image_default_styles() {
     ),
   );
 
+  // Exported image style: header_scale_850x400.
+  $styles['header_scale_850x400'] = array(
+    'label' => 'Header (Scale 850x400)',
+    'effects' => array(
+      1 => array(
+        'name' => 'image_scale',
+        'data' => array(
+          'width' => 850,
+          'height' => 400,
+          'upscale' => 0,
+        ),
+        'weight' => 1,
+      ),
+    ),
+  );
+
   // Exported image style: huge-landscape.
   $styles['huge-landscape'] = array(
     'label' => 'Huge Landscape (Scale and Crop 1500x1200)',
