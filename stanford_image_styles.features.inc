@@ -239,12 +239,11 @@ function stanford_image_styles_image_default_styles() {
   $styles['full-width-banner-short'] = array(
     'label' => 'full-width-banner-short',
     'effects' => array(
-      3 => array(
-        'name' => 'image_scale',
+      4 => array(
+        'name' => 'image_scale_and_crop',
         'data' => array(
-          'width' => 3000,
+          'width' => 3200,
           'height' => 1000,
-          'upscale' => 0,
         ),
         'weight' => 2,
       ),
