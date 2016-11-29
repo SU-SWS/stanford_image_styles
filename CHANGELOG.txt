@@ -1,6 +1,11 @@
 Stanford Image Styles x.x-x.x xxxx-xx-xx
 --------------------------------------
 
+7.x-3.4+13-dev                 2016-11-29
+----------------------------------------
+- added Header (Scale 850x400)
+- Updated full-width-banner-short to 3200 x 1000
+
 7.x-3.4+6-dev                 2016-09-16
 ----------------------------------------
 - added sm-landscape-scaled	image style
