@@ -1,6 +1,10 @@
 Stanford Image Styles x.x-x.x xxxx-xx-xx
 --------------------------------------
 
+7.x-3.4+16-dev                 2016-11-29
+----------------------------------------
+- Removed the crop on full-width-banner-short
+
 7.x-3.4+13-dev                 2016-11-29
 ----------------------------------------
 - added Header (Scale 850x400)
