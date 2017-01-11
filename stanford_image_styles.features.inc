@@ -240,13 +240,12 @@ function stanford_image_styles_image_default_styles() {
     'label' => 'full-width-banner-short',
     'effects' => array(
       2 => array(
-        'name' => 'image_scale',
+        'name' => 'image_scale_and_crop',
         'data' => array(
           'width' => 3200,
           'height' => 1000,
-          'upscale' => 0,
         ),
-        'weight' => 1,
+        'weight' => 2,
       ),
     ),
   );
