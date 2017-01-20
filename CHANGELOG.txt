@@ -1,6 +1,10 @@
 Stanford Image Styles x.x-x.x xxxx-xx-xx
 --------------------------------------
 
+7.x-3.4+20-dev                 2017-01-20
+----------------------------------------
+- Reverted full-width-banner-short to both scale and crop
+
 7.x-3.4+16-dev                 2016-11-29
 ----------------------------------------
 - Removed the crop on full-width-banner-short
