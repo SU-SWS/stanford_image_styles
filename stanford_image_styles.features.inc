@@ -534,19 +534,14 @@ function stanford_image_styles_image_default_styles() {
   $styles['large-scaled'] = array(
     'label' => 'large-scaled',
     'effects' => array(
-      2 => array(
+      1 => array(
         'name' => 'image_scale',
         'data' => array(
-          'width' => 540,
+          'width' => 270,
           'height' => '',
           'upscale' => 0,
         ),
         'weight' => 1,
-      ),
-      12 => array(
-        'name' => 'image_hires',
-        'data' => array(),
-        'weight' => 2,
       ),
     ),
   );
@@ -555,18 +550,13 @@ function stanford_image_styles_image_default_styles() {
   $styles['large-square'] = array(
     'label' => 'large-square',
     'effects' => array(
-      6 => array(
+      3 => array(
         'name' => 'image_scale_and_crop',
         'data' => array(
-          'width' => 540,
-          'height' => 540,
+          'width' => 270,
+          'height' => 270,
         ),
         'weight' => 1,
-      ),
-      13 => array(
-        'name' => 'image_hires',
-        'data' => array(),
-        'weight' => 2,
       ),
     ),
   );
@@ -657,18 +647,13 @@ function stanford_image_styles_image_default_styles() {
   $styles['med-square'] = array(
     'label' => 'med-square',
     'effects' => array(
-      8 => array(
+      5 => array(
         'name' => 'image_scale_and_crop',
         'data' => array(
-          'width' => 280,
-          'height' => 280,
+          'width' => 140,
+          'height' => 140,
         ),
         'weight' => 1,
-      ),
-      14 => array(
-        'name' => 'image_hires',
-        'data' => array(),
-        'weight' => 2,
       ),
     ),
   );
@@ -677,19 +662,14 @@ function stanford_image_styles_image_default_styles() {
   $styles['page-width'] = array(
     'label' => 'page-width',
     'effects' => array(
-      45 => array(
+      7 => array(
         'name' => 'image_scale',
         'data' => array(
-          'width' => 2400,
+          'width' => 1200,
           'height' => '',
           'upscale' => 0,
         ),
         'weight' => 1,
-      ),
-      46 => array(
-        'name' => 'image_hires',
-        'data' => array(),
-        'weight' => 2,
       ),
     ),
   );
@@ -780,19 +760,14 @@ function stanford_image_styles_image_default_styles() {
   $styles['sm-scaled'] = array(
     'label' => 'sm-scaled',
     'effects' => array(
-      4 => array(
+      9 => array(
         'name' => 'image_scale',
         'data' => array(
-          'width' => 240,
+          'width' => 120,
           'height' => '',
           'upscale' => 0,
         ),
         'weight' => 1,
-      ),
-      15 => array(
-        'name' => 'image_hires',
-        'data' => array(),
-        'weight' => 2,
       ),
     ),
   );
@@ -801,18 +776,13 @@ function stanford_image_styles_image_default_styles() {
   $styles['sm-square'] = array(
     'label' => 'sm-square',
     'effects' => array(
-      10 => array(
+      11 => array(
         'name' => 'image_scale_and_crop',
         'data' => array(
-          'width' => 200,
-          'height' => 200,
+          'width' => 100,
+          'height' => 100,
         ),
         'weight' => 1,
-      ),
-      11 => array(
-        'name' => 'image_hires',
-        'data' => array(),
-        'weight' => 2,
       ),
     ),
   );
