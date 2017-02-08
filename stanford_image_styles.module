@@ -14,5 +14,5 @@ include_once 'stanford_image_styles.features.inc';
  *   The image theme vars.
  */
 function stanford_image_styles_preprocess_image_style(array &$vars) {
-  $vars['attributes']['class'][] = drupal_clean_css_identifier($vars['style_name']);
+  $vars['attributes']['class'][] = "image-style-" . drupal_clean_css_identifier($vars['style_name']);
 }

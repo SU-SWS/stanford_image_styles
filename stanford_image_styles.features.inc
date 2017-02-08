@@ -314,12 +314,17 @@ function stanford_image_styles_image_default_styles() {
   $styles['full-width-banner-short'] = array(
     'label' => 'full-width-banner-short',
     'effects' => array(
-      75 => array(
+      13 => array(
         'name' => 'image_scale_and_crop',
         'data' => array(
           'width' => 3200,
           'height' => 1000,
         ),
+        'weight' => 2,
+      ),
+      14 => array(
+        'name' => 'image_hires',
+        'data' => array(),
         'weight' => 2,
       ),
     ),
