@@ -49,4 +49,5 @@ features[image][] = sm-square
 features[image][] = thmb-landscape
 features[image][] = thmb-profile
 features[image][] = thmb-square
+features[image][] = mikes-test
 project status url = https://github.com/SU-SWS/stanford_image_styles

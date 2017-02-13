@@ -11,6 +11,21 @@ function stanford_image_styles_image_default_styles() {
   $styles = array();
 
   // Exported image style: 12-col-banner.
+  $styles['mikes-test'] = array(
+    'effects' => array(
+      1 => array(
+        'name' => 'image_scale_and_crop',
+        'data' => array(
+          'width' => 1170,
+          'height' => 370,
+        ),
+        'weight' => 1,
+      ),
+    ),
+    'label' => 'Mikes Test',
+  );
+
+  // Exported image style: 12-col-banner.
   $styles['12-col-banner'] = array(
     'effects' => array(
       1 => array(
