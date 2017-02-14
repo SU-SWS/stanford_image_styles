@@ -6,7 +6,6 @@ version = 7.x-3.4-dev
 project = stanford_image_styles
 dependencies[] = image
 features[features_api][] = api:2
-features[image][] = 12-col-banner
 features[image][] = 12-col-banner-tall
 features[image][] = 3-col-header
 features[image][] = 4-col-header
