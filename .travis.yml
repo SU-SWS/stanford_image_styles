@@ -54,7 +54,7 @@ env:
     - DEPLOYER_BRANCH=""
     - DRUPAL_PROFILE_BRANCH=""
     - CLICKY_BRANCH="HSDO-713-image-styles"
-    - SCRIPTS_BRANCH=""
+    - SCRIPTS_BRANCH="home-dir"
 
 language: php
 php:
