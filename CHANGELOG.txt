@@ -1,6 +1,12 @@
 Stanford Image Styles x.x-x.x xxxx-xx-xx
 --------------------------------------
 
+7.x-4.0                       2017-02-27
+----------------------------------------
+- Doubled image size and added dependency on hi-res contrib module
+- Added a preprocess function to apply a css class to html output
+- Add code climate and travis integrations
+
 7.x-3.4+20-dev                 2017-01-20
 ----------------------------------------
 - Reverted full-width-banner-short to both scale and crop
