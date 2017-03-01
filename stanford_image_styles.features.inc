@@ -361,14 +361,14 @@ function stanford_image_styles_image_default_styles() {
   // Exported image style: large-landscape-scaled.
   $styles['large-landscape-scaled'] = array(
     'effects' => array(
-      9 => array(
+      3 => array(
         'name' => 'image_scale',
         'data' => array(
-          'width' => 270,
-          'height' => '',
+          'width' => 0,
+          'height' => 270,
           'upscale' => 0,
         ),
-        'weight' => 1,
+        'weight' => 2,
       ),
     ),
     'label' => 'large-landscape-scaled',
