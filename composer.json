@@ -1,0 +1,10 @@
+{
+  "name": "su-sws/stanford_image_styles",
+  "description": "Stanford Image Styles for Drupal 8",
+  "type": "stanford-module",
+  "homepage": "https://github.com/SU-SWS/stanford_image_styles",
+  "authors": [],
+  "license": "GPL-2.0+",
+  "minimum-stability": "dev",
+  "require": {}
+}

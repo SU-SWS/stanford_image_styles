@@ -1,0 +1,10 @@
+name: 'Stanford Image Styles'
+type: module
+description: 'Provides Image Styles'
+core: 8.x
+package: Stanford
+version: 8.x-1.0-dev
+dependencies:
+  - image
+  - responsive_image
+  - stanford_image_styles
