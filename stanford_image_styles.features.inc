@@ -330,6 +330,26 @@ function stanford_image_styles_image_default_styles() {
     ),
   );
 
+  // Exported image style: full_width_banner_tall.
+  $styles['full_width_banner_tall'] = array(
+    'label' => 'Full Width Banner Tall',
+    'effects' => array(
+      1 => array(
+        'name' => 'image_scale_and_crop',
+        'data' => array(
+          'width' => 3200,
+          'height' => 1505,
+        ),
+        'weight' => 1,
+      ),
+      2 => array(
+        'name' => 'image_hires',
+        'data' => array(),
+        'weight' => 2,
+      ),
+    ),
+  );
+
   // Exported image style: half-page-profile.
   $styles['half-page-profile'] = array(
     'label' => 'Half Page Profile (Scale and Crop 600x700)',
