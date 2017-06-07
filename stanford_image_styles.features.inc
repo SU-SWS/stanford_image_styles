@@ -330,9 +330,9 @@ function stanford_image_styles_image_default_styles() {
     ),
   );
 
-  // Exported image style: full_width_banner_short_scale_and_crop_1600x400.
-  $styles['full_width_banner_short_scale_and_crop_1600x400'] = array(
-    'label' => 'full_width_banner_short_scale_and_crop_1600x400',
+  // Exported image style: full_width_banner_shorts_scale_and_crop_1600x400.
+  $styles['full_width_banner_shorts_scale_and_crop_1600x400'] = array(
+    'label' => 'full_width_banner_shorts_scale_and_crop_1600x400',
     'effects' => array(
       1 => array(
         'name' => 'image_scale_and_crop',
