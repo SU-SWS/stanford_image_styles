@@ -330,6 +330,26 @@ function stanford_image_styles_image_default_styles() {
     ),
   );
 
+  // Exported image style: full_width_banner_shorts_scale_and_crop_1600x400.
+  $styles['full_width_banner_shorts_scale_and_crop_1600x400'] = array(
+    'label' => 'full_width_banner_shorts_scale_and_crop_1600x400',
+    'effects' => array(
+      2 => array(
+        'name' => 'image_scale_and_crop',
+        'data' => array(
+          'width' => 3200,
+          'height' => 800,
+        ),
+        'weight' => 1,
+      ),
+      3 => array(
+        'name' => 'image_hires',
+        'data' => array(),
+        'weight' => 2,
+      ),
+    ),
+  );
+
   // Exported image style: full_width_banner_tall.
   $styles['full_width_banner_tall'] = array(
     'label' => 'Full Width Banner Tall',
