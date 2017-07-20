@@ -839,10 +839,15 @@ function stanford_image_styles_image_default_styles() {
       1 => array(
         'name' => 'image_scale_and_crop',
         'data' => array(
-          'width' => 370,
-          'height' => 370,
+          'width' => 740,
+          'height' => 740,
         ),
         'weight' => 1,
+      ),
+      2 => array(
+        'name' => 'image_hires',
+        'data' => array(),
+        'weight' => 2,
       ),
     ),
   );
