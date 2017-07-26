@@ -26,6 +26,7 @@ features[image][] = full-width-banner-short
 features[image][] = full_width_banner_shorts_scale_and_crop_1600x400
 features[image][] = full_width_banner_tall
 features[image][] = half-page-profile
+features[image][] = header_370_x_170
 features[image][] = header_scale_850x400
 features[image][] = huge-landscape
 features[image][] = icon-profile
