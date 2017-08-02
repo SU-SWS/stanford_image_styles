@@ -410,6 +410,26 @@ function stanford_image_styles_image_default_styles() {
     ),
   );
 
+  // Exported image style: header_370_x_240.
+  $styles['header_370_x_240'] = array(
+    'label' => 'Header (scale and crop 370 x 240)',
+    'effects' => array(
+      45 => array(
+        'name' => 'image_scale_and_crop',
+        'data' => array(
+          'width' => 740,
+          'height' => 480,
+        ),
+        'weight' => 1,
+      ),
+      46 => array(
+        'name' => 'image_hires',
+        'data' => array(),
+        'weight' => 2,
+      ),
+    ),
+  );
+
   // Exported image style: header_scale_850x400.
   $styles['header_scale_850x400'] = array(
     'label' => 'Header (Scale 850x400)',
