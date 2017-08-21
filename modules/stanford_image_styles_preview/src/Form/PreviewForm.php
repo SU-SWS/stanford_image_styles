@@ -30,6 +30,9 @@ class PreviewForm extends FormBase {
       '#title' => $this->t('Image'),
       '#description' => $this->t('Upload an image to see how the image styles react'),
       '#required' => TRUE,
+      '#upload_validators' => [
+        'file_validate_extensions' => array('gif png jpg jpeg'),
+      ],
     ];
 
     $form['submit'] = [
