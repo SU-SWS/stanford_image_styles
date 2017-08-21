@@ -16,22 +16,20 @@ class PreviewForm extends FormBase {
    * {@inheritdoc}
    */
   public function getFormId() {
-    return 'preview_form';
+    return 'stanford_image_styles_preview_form';
   }
 
   /**
    * {@inheritdoc}
    */
   public function buildForm(array $form, FormStateInterface $form_state) {
-    $form = [];
-
     $form['image'] = [
       '#type' => 'managed_file',
       '#title' => $this->t('Image'),
       '#description' => $this->t('Upload an image to see how the image styles react'),
       '#required' => TRUE,
       '#upload_validators' => [
-        'file_validate_extensions' => array('gif png jpg jpeg'),
+        'file_validate_extensions' => ['gif png jpg jpeg'],
       ],
     ];
 
