@@ -897,16 +897,16 @@ function stanford_image_styles_image_default_styles() {
     'label' => 'Square (scale and crop 270 x 270)',
     'effects' => array(
       1 => array(
-        'name' => 'image_hires',
-        'data' => array(),
+        'name' => 'image_scale_and_crop',
+        'data' => array(
+          'width' => 540,
+          'height' => 540,
+        ),
         'weight' => 1,
       ),
       2 => array(
-        'name' => 'image_scale_and_crop',
-        'data' => array(
-          'width' => 270,
-          'height' => 270,
-        ),
+        'name' => 'image_hires',
+        'data' => array(),
         'weight' => 2,
       ),
     ),
