@@ -892,6 +892,26 @@ function stanford_image_styles_image_default_styles() {
     ),
   );
 
+  // Exported image style: square_scale_and_crop_270_x_270.
+  $styles['square_scale_and_crop_270_x_270'] = array(
+    'label' => 'Square (scale and crop 270 x 270)',
+    'effects' => array(
+      1 => array(
+        'name' => 'image_hires',
+        'data' => array(),
+        'weight' => 1,
+      ),
+      2 => array(
+        'name' => 'image_scale_and_crop',
+        'data' => array(
+          'width' => 270,
+          'height' => 270,
+        ),
+        'weight' => 2,
+      ),
+    ),
+  );
+
   // Exported image style: thmb-landscape.
   $styles['thmb-landscape'] = array(
     'label' => 'thmb-landscape',
