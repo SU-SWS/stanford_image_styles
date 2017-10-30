@@ -3,5 +3,6 @@ type: module
 description: Provides an admin page to view a preview of all image styles after effects are applied.
 core: 8.x
 package: Stanford
+version: 8.x-1.0-alpha1
 dependencies:
   - stanford_image_styles
