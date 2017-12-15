@@ -56,4 +56,5 @@ features[image][] = square_scale_and_crop_270_x_270
 features[image][] = thmb-landscape
 features[image][] = thmb-profile
 features[image][] = thmb-square
+features[image][] = facebook_share_image
 project status url = https://github.com/SU-SWS/stanford_image_styles
