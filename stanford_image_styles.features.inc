@@ -972,5 +972,20 @@ function stanford_image_styles_image_default_styles() {
     ),
   );
 
+  // Exported image style: facebook_share_image.
+  $styles['facebook_share_image'] = array(
+    'label' => 'Facebook Share Image',
+    'effects' => array(
+      1 => array(
+        'name' => 'image_scale_and_crop',
+        'data' => array(
+          'width' => 1200,
+          'height' => 630,
+        ),
+        'weight' => 1,
+      ),
+    ),
+  );
+
   return $styles;
 }
