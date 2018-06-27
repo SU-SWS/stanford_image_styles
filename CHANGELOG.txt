@@ -1,5 +1,10 @@
 Stanford Image Styles
 --------------------------------------
+
+7.x-4.3-alpha2                2018-06-26
+----------------------------------------
+- Added composer.json
+
 7.x-4.3-alpha1                2017-12-18
 ----------------------------------------
 - SOE-2510: Added facebook share image style
