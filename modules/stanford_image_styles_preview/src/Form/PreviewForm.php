@@ -137,6 +137,8 @@ class PreviewForm extends FormBase {
    *
    * @return array
    *   Form api array of the summary of effects on the style and the preview.
+   *
+   * @throws \Drupal\Core\Entity\EntityMalformedException
    */
   private function buildStylePreview(ImageStyleInterface $style, $file_uri) {
     $element = [
@@ -156,7 +158,7 @@ class PreviewForm extends FormBase {
     $element['edit'] = [
       '#prefix' => '<div class="clearfix">',
       '#suffix' => '</div>',
-      '#markup' => Link::fromTextAndUrl($this->t('Edit Style'), $style->urlInfo()),
+      '#markup' => Link::fromTextAndUrl($this->t('Edit Style'), $style->toUrl()),
     ];
 
     $element['image'] = [
