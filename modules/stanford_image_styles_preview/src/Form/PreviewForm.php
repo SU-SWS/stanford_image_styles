@@ -5,6 +5,7 @@ namespace Drupal\stanford_image_styles_preview\Form;
 use Drupal\Core\Entity\EntityTypeManagerInterface;
 use Drupal\Core\Form\FormBase;
 use Drupal\Core\Form\FormStateInterface;
+use Drupal\Core\Link;
 use Drupal\Core\Render\RendererInterface;
 use Drupal\image\ImageStyleInterface;
 use Symfony\Component\DependencyInjection\ContainerInterface;
@@ -155,7 +156,7 @@ class PreviewForm extends FormBase {
     $element['edit'] = [
       '#prefix' => '<div class="clearfix">',
       '#suffix' => '</div>',
-      '#markup' => $this->l($this->t('Edit Style'), $style->urlInfo()),
+      '#markup' => Link::fromTextAndUrl($this->t('Edit Style'), $style->urlInfo()),
     ];
 
     $element['image'] = [
