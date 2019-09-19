@@ -1,6 +1,8 @@
 # [Stanford Image Styles](https://github.com/SU-SWS/stanford_image_styles)
 ##### Version: 8.x-1.0-dev
 
+[![CircleCI](https://circleci.com/gh/SU-SWS/stanford_image_styles.svg?style=svg)](https://circleci.com/gh/SU-SWS/stanford_image_styles)
+
 Maintainers: [jbickar](https://github.com/jbickar), [sherakama](https://github.com/sherakama)  
 
 Changelog: [Changelog.txt](CHANGELOG.txt)
