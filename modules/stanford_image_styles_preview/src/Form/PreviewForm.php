@@ -158,7 +158,7 @@ class PreviewForm extends FormBase {
     $element['edit'] = [
       '#prefix' => '<div class="clearfix">',
       '#suffix' => '</div>',
-      '#markup' => Link::fromTextAndUrl($this->t('Edit Style'), $style->toUrl()),
+      '#markup' => Link::fromTextAndUrl($this->t('Edit Style'), $style->toUrl())->toString(),
     ];
 
     $element['image'] = [
