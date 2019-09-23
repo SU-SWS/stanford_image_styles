@@ -2,15 +2,50 @@
 
 namespace Drupal\stanford_image_styles_preview\Form;
 
+use Drupal\Core\Entity\EntityTypeManagerInterface;
 use Drupal\Core\Form\FormBase;
 use Drupal\Core\Form\FormStateInterface;
-use Drupal\file\Entity\File;
-use Drupal\image\Entity\ImageStyle;
+use Drupal\Core\Link;
+use Drupal\Core\Render\RendererInterface;
+use Drupal\image\ImageStyleInterface;
+use Symfony\Component\DependencyInjection\ContainerInterface;
 
 /**
  * Class PreviewForm.
  */
 class PreviewForm extends FormBase {
+
+  /**
+   * Entity type manager service.
+   *
+   * @var \Drupal\Core\Entity\EntityTypeManagerInterface
+   */
+  protected $entityTypeManager;
+
+  /**
+   * Render service.
+   *
+   * @var \Drupal\Core\Render\RendererInterface
+   */
+  protected $renderer;
+
+  /**
+   * {@inheritdoc}
+   */
+  public static function create(ContainerInterface $container) {
+    return new static(
+      $container->get('entity_type.manager'),
+      $container->get('renderer')
+    );
+  }
+
+  /**
+   * {@inheritdoc}
+   */
+  public function __construct(EntityTypeManagerInterface $entity_type_manager, RendererInterface $renderer) {
+    $this->entityTypeManager = $entity_type_manager;
+    $this->renderer = $renderer;
+  }
 
   /**
    * {@inheritdoc}
@@ -51,23 +86,28 @@ class PreviewForm extends FormBase {
   }
 
   /**
-   * Builds the preview portions of the form using a default image or an
-   * uploaded image.
+   * Builds the preview portions of the form using a an image.
    *
    * @param array $form
    *   Simple form api array.
    * @param FormStateInterface $form_state
    *   Form State from building the form.
+   *
+   * @throws \Drupal\Component\Plugin\Exception\InvalidPluginDefinitionException
+   * @throws \Drupal\Component\Plugin\Exception\PluginNotFoundException
    */
   private function buildPreview(array &$form, FormStateInterface &$form_state) {
-    $style_ids = \Drupal::entityQuery('image_style')->execute();
-    $styles = ImageStyle::loadMultiple($style_ids);
+    /** @var \Drupal\image\ImageStyleInterface[] $styles */
+    $styles = $this->entityTypeManager->getStorage('image_style')
+      ->loadMultiple();
 
     $file_uri = drupal_get_path('module', 'stanford_image_styles_preview') . '/img/preview_image.jpg';
     $file = NULL;
+
     // If the form is being rebuild, we can grab the image and load it.
     if ($image = $form_state->getValue('image')) {
-      $file = File::load(reset($image));
+      $file = $this->entityTypeManager->getStorage('file')
+        ->load(is_array($image) ? reset($image) : $image);
       if ($file) {
         $file_uri = $file->getFileUri();
       }
@@ -81,9 +121,8 @@ class PreviewForm extends FormBase {
       '#markup' => '<img src="' . file_create_url($file_uri) . '" />',
     ];
 
-    /** @var \Drupal\image\Entity\ImageStyle $style */
     foreach ($styles as $style) {
-      $form['preview'][$style->getOriginalId()] = $this->buildStylePreview($style, $file_uri);
+      $form['preview'][$style->id()] = $this->buildStylePreview($style, $file_uri);
     }
 
   }
@@ -91,47 +130,49 @@ class PreviewForm extends FormBase {
   /**
    * Builds the information about the style including all effects.
    *
-   * @param ImageStyle $style
+   * @param \Drupal\image\ImageStyleInterface $style
    *   Image style to build preview.
    * @param string $file_uri
    *   Original file uri.
    *
    * @return array
    *   Form api array of the summary of effects on the style and the preview.
+   *
+   * @throws \Drupal\Core\Entity\EntityMalformedException
    */
-  private function buildStylePreview($style, $file_uri) {
-    $form = [
+  private function buildStylePreview(ImageStyleInterface $style, $file_uri) {
+    $element = [
       '#type' => 'fieldset',
       '#title' => $style->label(),
     ];
 
     if ($style->getEffects()->getInstanceIds()) {
-      $form['effects'] = [
+      $element['effects'] = [
         '#type' => 'fieldset',
         '#title' => $this->t('Effects'),
       ];
 
-      $form['effects']['summary'] = $this->buildEffectSummary($style);;
+      $element['effects']['summary'] = $this->buildEffectSummary($style);;
     }
 
-    $form['edit'] = [
+    $element['edit'] = [
       '#prefix' => '<div class="clearfix">',
       '#suffix' => '</div>',
-      '#markup' => $this->l($this->t('Edit Style'), $style->urlInfo()),
+      '#markup' => Link::fromTextAndUrl($this->t('Edit Style'), $style->toUrl())->toString(),
     ];
 
-    $form['image'] = [
+    $element['image'] = [
       '#theme' => 'image',
       '#uri' => $this->getStyleDerivative($style, $file_uri),
     ];
 
-    return $form;
+    return $element;
   }
 
   /**
    * Create the image derivative and get the derivative url.
    *
-   * @param ImageStyle $style
+   * @param \Drupal\image\ImageStyleInterface $style
    *   The Image style to create a derivative and return that uri.
    * @param string $file_uri
    *   The original URI of the file.
@@ -139,7 +180,7 @@ class PreviewForm extends FormBase {
    * @return string
    *   THe style derivative URI.
    */
-  private function getStyleDerivative($style, $file_uri) {
+  private function getStyleDerivative(ImageStyleInterface $style, $file_uri) {
     $derivative = explode('/', $style->buildUri($file_uri));
     $file_name = array_pop($derivative);
     $extension = substr($file_name, strrpos($file_name, '.') + 1);
@@ -154,32 +195,32 @@ class PreviewForm extends FormBase {
   /**
    * Build a list of all effects on a image style.
    *
-   * @param ImageStyle $style
+   * @param \Drupal\image\ImageStyleInterface $style
    *   Image style to build list of effects.
    *
    * @return array
    *   Render array of a list of effect summaries.
    */
-  private function buildEffectSummary($style) {
+  private function buildEffectSummary(ImageStyleInterface $style) {
     $effects = $style->getEffects();
     $list = [];
+
     foreach ($effects->getInstanceIds() as $effect_id) {
       $effect = $effects->get($effect_id);
 
       $effect_info = $effect->label();
       $summary = $effect->getSummary();
+
       if (!empty($summary)) {
-        $effect_info .= ': ' . trim(strip_tags(render($summary)));
+        $effect_info .= ': ' . $this->renderer->renderPlain($summary);
       }
       $list[] = $effect_info;
     }
-    if ($list) {
-      return [
-        '#theme' => 'item_list',
-        '#items' => $list,
-      ];
-    }
-    return [];
+
+    return [
+      '#theme' => 'item_list',
+      '#items' => $list,
+    ];
   }
 
 }
