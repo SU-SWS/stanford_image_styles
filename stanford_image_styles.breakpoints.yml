@@ -4,7 +4,7 @@
 #
 stanford_image_styles.xs:
   label: XS
-  mediaQuery: 'screen and (min-width: 0em)'
+  mediaQuery: '(min-width: 0em)'
   weight: 0
   multipliers:
     - 1x
@@ -12,28 +12,35 @@ stanford_image_styles.xs:
 stanford_image_styles.sm:
   label: SM
   mediaQuery: 'screen and (min-width: 576px)'
-  weight: 1
+  weight: 0
   multipliers:
     - 1x
     - 2x
 stanford_image_styles.md:
   label: MD
   mediaQuery: 'screen and (min-width: 768px)'
-  weight: 2
+  weight: 0
   multipliers:
     - 1x
     - 2x
 stanford_image_styles.lg:
   label: LG
-  mediaQuery: 'screen and (min-width: 1024px)'
-  weight: 3
+  mediaQuery: 'screen and (min-width: 992px)'
+  weight: 0
   multipliers:
     - 1x
     - 2x
 stanford_image_styles.xl:
   label: XL
+  mediaQuery: 'screen and (min-width: 1200px)'
+  weight: 0
+  multipliers:
+    - 1x
+    - 2x
+stanford_image_styles.2xl:
+  label: 2XL
   mediaQuery: 'screen and (min-width: 1500px)'
-  weight: 4
+  weight: 0
   multipliers:
     - 1x
     - 2x
