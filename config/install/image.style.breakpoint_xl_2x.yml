@@ -1,6 +1,8 @@
 langcode: en
 status: true
 dependencies: {  }
+_core:
+  default_config_hash: Vh36ZWh1RSikZ0pbEJjgQa4UPqirYo__IZ1NsmQwTPA
 name: breakpoint_xl_2x
 label: 'Breakpoint - XL - 2x'
 effects:
@@ -9,6 +11,6 @@ effects:
     id: image_scale
     weight: 1
     data:
-      width: 3000
+      width: 2400
       height: null
-      upscale: false
+      upscale: true

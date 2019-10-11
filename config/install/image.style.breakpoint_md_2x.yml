@@ -1,6 +1,8 @@
 langcode: en
 status: true
 dependencies: {  }
+_core:
+  default_config_hash: TJO8X5EvB-f6_JLymfBhl0dJ2bP0rbm94sJLiSDGkGk
 name: breakpoint_md_2x
 label: 'Breakpoint - MD - 2x'
 effects:
@@ -11,4 +13,4 @@ effects:
     data:
       width: 1536
       height: null
-      upscale: false
+      upscale: true
