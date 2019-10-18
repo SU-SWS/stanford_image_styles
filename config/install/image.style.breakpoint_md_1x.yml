@@ -1,6 +1,8 @@
 langcode: en
 status: true
 dependencies: {  }
+_core:
+  default_config_hash: ofY6kXeN4lN9PG-eTaA78tAzx3ACWtTmlK-APH7PAZg
 name: breakpoint_md_1x
 label: 'Breakpoint - MD - 1x'
 effects:

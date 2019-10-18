@@ -1,6 +1,8 @@
 langcode: en
 status: true
 dependencies: {  }
+_core:
+  default_config_hash: cZXot4swbaAIIWXQw7ZhgPwlabmSTQOCZO8AIM5isGE
 name: breakpoint_lg_2x
 label: 'Breakpoint - LG - 2x'
 effects:
@@ -9,6 +11,6 @@ effects:
     id: image_scale
     weight: 1
     data:
-      width: 2048
+      width: 1984
       height: null
       upscale: false
