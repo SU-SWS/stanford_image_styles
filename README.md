@@ -2,6 +2,8 @@
 ##### Version: 8.x-1.0-dev
 
 [![CircleCI](https://circleci.com/gh/SU-SWS/stanford_image_styles.svg?style=svg)](https://circleci.com/gh/SU-SWS/stanford_image_styles)
+[![Maintainability](https://api.codeclimate.com/v1/badges/51adad6b2a3d5097cfb1/maintainability)](https://codeclimate.com/github/SU-SWS/stanford_image_styles/maintainability)
+[![Test Coverage](https://api.codeclimate.com/v1/badges/51adad6b2a3d5097cfb1/test_coverage)](https://codeclimate.com/github/SU-SWS/stanford_image_styles/test_coverage)
 
 Maintainers: [jbickar](https://github.com/jbickar), [sherakama](https://github.com/sherakama)  
 
