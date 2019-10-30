@@ -1,7 +1,9 @@
 # [Stanford Image Styles](https://github.com/SU-SWS/stanford_image_styles)
-##### Version: 8.x-1.0-dev
+##### Version: 8.x
 
 [![CircleCI](https://circleci.com/gh/SU-SWS/stanford_image_styles.svg?style=svg)](https://circleci.com/gh/SU-SWS/stanford_image_styles)
+[![Maintainability](https://api.codeclimate.com/v1/badges/51adad6b2a3d5097cfb1/maintainability)](https://codeclimate.com/github/SU-SWS/stanford_image_styles/maintainability)
+[![Test Coverage](https://api.codeclimate.com/v1/badges/51adad6b2a3d5097cfb1/test_coverage)](https://codeclimate.com/github/SU-SWS/stanford_image_styles/test_coverage)
 
 Maintainers: [jbickar](https://github.com/jbickar), [sherakama](https://github.com/sherakama)  
 
@@ -15,7 +17,6 @@ The Stanford Image Styles module contains a number of shared or common image sty
 Accessibility
 ---
 [![WCAG Conformance 2.0 AA Badge](https://www.w3.org/WAI/wcag2AA-blue.png)](https://www.w3.org/TR/WCAG20/)
-Evaluation Date: 201X-XX-XX  
 This module conforms to level AA WCAG 2.0 standards as required by the university's accessibility policy. For more information on the policy please visit: [https://ucomm.stanford.edu/policies/accessibility-policy.html](https://ucomm.stanford.edu/policies/accessibility-policy.html).
 
 Installation
@@ -33,18 +34,6 @@ Troubleshooting
 ---
 
 If you are experiencing issues with this module try reverting the feature first. If you are still experiencing issues try posting an issue on the GitHub issues page.
-
-Developer
----
-
-If you wish to develop on this module you will most likely need to compile some new css. Please use the sass structure provided and compile with the sass compiler packaged in this module. To install:
-
-```
-npm install
-grunt watch
- or
-grunt devmode
-```
 
 Contribution / Collaboration
 ---
