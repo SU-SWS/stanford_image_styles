@@ -2,6 +2,8 @@
 
 8.x-1.0
 --------------------------------------------------------------------------------
+_Release Date: 2019-10-30_
+
 - First Stable Release!
 - Changes to this release from Alpha 1:
 * Added circleci
