@@ -1,0 +1,34 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - focal_point
+    - image_effects
+name: medium_circle
+label: 'Medium Circle (220x220)'
+effects:
+  c13a7d38-0ff7-48b9-94b0-1f5be2684729:
+    uuid: c13a7d38-0ff7-48b9-94b0-1f5be2684729
+    id: focal_point_scale_and_crop
+    weight: -10
+    data:
+      width: 220
+      height: 220
+      crop_type: focal_point
+  e16766ec-37b4-4d36-8fce-615ed14ea929:
+    uuid: e16766ec-37b4-4d36-8fce-615ed14ea929
+    id: image_convert
+    weight: -9
+    data:
+      extension: png
+  d928d89a-3854-42a1-bed7-25a7201ac606:
+    uuid: d928d89a-3854-42a1-bed7-25a7201ac606
+    id: image_effects_mask
+    weight: -8
+    data:
+      mask_image: modules/custom/stanford_person/dist/assets/img/mask-image_220px.png
+      mask_width: ''
+      mask_height: ''
+      placement: center-center
+      x_offset: ''
+      y_offset: ''
