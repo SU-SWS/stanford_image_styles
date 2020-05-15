@@ -1,5 +1,13 @@
 # Stanford Image Styles
 
+8.x-1.1
+--------------------------------------------------------------------------------
+_Release Date: 2020-05-15_
+
+- D8CORE-000: Added package name to `package.json` (#52) (268e721)
+- D8CORE-1644 (#50) (39e3c1b)
+- Update stanford_image_styles_preview.info.yml (950dd6d)
+
 8.x-1.0
 --------------------------------------------------------------------------------
 _Release Date: 2019-10-30_
