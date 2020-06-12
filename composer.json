@@ -13,7 +13,7 @@
         }
     ],
     "require": {
-        "drupal/image_effects": "^2.3",
+        "drupal/image_effects": "^3.0",
         "drupal/focal_point": "^1.1"
     }
 }
