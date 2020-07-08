@@ -43,7 +43,7 @@ class StylesCest {
    * Responsive Image styles should have been created.
    */
   public function testResponsiveStyles(AcceptanceTester $I) {
-    $I->amOnPage('admin/config/media/responsive-image-style');
+    $I->amOnPage('/admin/config/media/responsive-image-style');
     $I->canSee('Card - 478x318');
     $I->canSee('CTA - 596x397');
     $I->canSee('Stanford Hero Block - Wide');
