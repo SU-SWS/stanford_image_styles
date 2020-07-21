@@ -3,14 +3,14 @@ status: true
 dependencies:
   module:
     - focal_point
-name: card_2x_956x636
-label: 'Card - 2X - 956x636'
+name: square_1192
+label: 'Square - 1192'
 effects:
-  2d61f395-da00-4db7-a98d-c9a4e3e1ba6d:
+  e1b9c81d-c281-4e9d-b145-28144e978ac0:
     id: focal_point_scale_and_crop
     weight: 1
     data:
-      width: 956
-      height: 366
+      width: 1192
+      height: 1192
       crop_type: focal_point
 

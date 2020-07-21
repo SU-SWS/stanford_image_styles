@@ -37,6 +37,10 @@ class StylesCest {
     $I->canSee('CTA - 1X - 596x397');
     $I->canSee('CTA - 2X - 1014x676');
     $I->canSee('CTA - 2X - 1192x794');
+    $I->canSee('Square - 478');
+    $I->canSee('Square - 956');
+    $I->canSee('Square - 1192');
+    $I->canSee('Square - 1900');
   }
 
   /**
@@ -47,6 +51,7 @@ class StylesCest {
     $I->canSee('Card - 478x318');
     $I->canSee('CTA - 596x397');
     $I->canSee('Stanford Hero Block - Wide');
+    $I->canSee('Responsive 1:1');
   }
 
 }
