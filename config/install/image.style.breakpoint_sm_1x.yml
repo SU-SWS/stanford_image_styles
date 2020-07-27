@@ -1,8 +1,6 @@
 langcode: en
 status: true
 dependencies: {  }
-_core:
-  default_config_hash: G0Vkgl6yKu6iHRjh_xyTEUsbM_lAgQ362aTGF_edkg0
 name: breakpoint_sm_1x
 label: 'Breakpoint - SM - 1x'
 effects:
@@ -14,3 +12,4 @@ effects:
       width: 576
       height: null
       upscale: false
+

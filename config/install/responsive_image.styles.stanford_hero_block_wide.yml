@@ -14,8 +14,6 @@ dependencies:
     - image.style.breakpoint_xl_2x
   module:
     - stanford_image_styles
-_core:
-  default_config_hash: B0tXkjUZrA5gFY6X39MInsKCbjqw1oZHH9cYDwyQkhI
 id: stanford_hero_block_wide
 label: 'Stanford Hero Block - Wide'
 image_style_mappings:
@@ -81,3 +79,4 @@ image_style_mappings:
     image_mapping: breakpoint_sm_2x
 breakpoint_group: stanford_image_styles
 fallback_image_style: breakpoint_2xl_2x
+

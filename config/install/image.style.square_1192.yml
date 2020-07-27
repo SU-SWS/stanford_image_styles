@@ -3,15 +3,15 @@ status: true
 dependencies:
   module:
     - focal_point
-name: cta_2x_1192x794
-label: 'CTA - 2X - 1192x794'
+name: square_1192
+label: 'Square - 1192'
 effects:
-  53821e7f-a825-4519-86f8-84dff276b0c6:
-    uuid: 53821e7f-a825-4519-86f8-84dff276b0c6
+  e1b9c81d-c281-4e9d-b145-28144e978ac0:
+    uuid: e1b9c81d-c281-4e9d-b145-28144e978ac0
     id: focal_point_scale_and_crop
     weight: 1
     data:
       width: 1192
-      height: 794
+      height: 1192
       crop_type: focal_point
 
