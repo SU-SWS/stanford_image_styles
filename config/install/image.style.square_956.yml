@@ -7,6 +7,7 @@ name: square_956
 label: 'Square - 956'
 effects:
   d383578e-88ff-41aa-830d-526c90d3df98:
+    uuid: d383578e-88ff-41aa-830d-526c90d3df98
     id: focal_point_scale_and_crop
     weight: 1
     data:
